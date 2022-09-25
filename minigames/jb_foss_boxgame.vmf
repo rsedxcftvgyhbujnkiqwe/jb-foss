@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8862"
-	"mapversion" "72"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "72"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -2559,7 +2559,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 123 208"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2677,7 +2677,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 101 174"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2795,7 +2795,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 123 208"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2913,7 +2913,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 101 174"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3031,7 +3031,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 123 208"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3149,7 +3149,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 101 174"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3267,7 +3267,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 219 240"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3385,7 +3385,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 173 130"
+			"color" "0 175 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3440,10 +3440,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_boxgame_l_logicbranch*,Test,,0,-1"
-		"OnPressed" "!self,Lock,,0,-1"
-		"OnPressed" "mg_boxgame_logicrelay,Trigger,,0,-1"
-		"OnPressed" "mg_boxgame_indicator*,Color,255 255 255,0,-1"
+		"OnPressed" "mg_boxgame_counter_button,SetValue,1,0,-1"
 	}
 	solid
 	{
@@ -3604,12 +3601,12 @@ entity
 		"OnFalse" "mg_count1,PlaySound,,2,-1"
 		"OnFalse" "mg_boxgame_control_button,Color,255 0 0,0,-1"
 		"OnTrue" "mg_boxgame_control_button,Color,0 255 0,0,-1"
-		"OnFalse" "!self,SetValue,1,2,-1"
-		"OnTrue" "!self,SetValue,0,2,-1"
+		"OnFalse" "!self,SetValue,1,0,-1"
+		"OnTrue" "!self,SetValue,0,0,-1"
 		"OnTrue" "mg_boxgame_logicrelay,CancelPending,,0,-1"
 		"OnTrue" "mg_boxgame_indicator*,Color,255 255 255,0,-1"
 		"OnTrue" "mg_boxgame_r_logicbranch*,SetValue,0,0,-1"
-		"OnTrue" "mg_boxgame_button_*,Lock,,1,-1"
+		"OnTrue" "mg_boxgame_button_*,Lock,,0,-1"
 		"OnTrue" "mg_boxgame_l_logicbranch*,SetValue,0,0,-1"
 		"OnFalse" "mg_boxgame_logicrelay,Trigger,,2,-1"
 	}
@@ -4348,10 +4345,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_boxgame_r_logicbranch*,Test,,0,-1"
-		"OnPressed" "!self,Lock,,0,-1"
-		"OnPressed" "mg_boxgame_logicrelay,Trigger,,0,-1"
-		"OnPressed" "mg_boxgame_indicator*,Color,255 255 255,0,-1"
+		"OnPressed" "mg_boxgame_counter_button,SetValue,2,0,-1"
 	}
 	solid
 	{
@@ -8675,13 +8669,13 @@ entity
 	"classname" "trigger_hurt"
 	"angles" "0 0 0"
 	"damage" "99999"
+	"damagecap" "20"
 	"damagemodel" "0"
 	"damagetype" "0"
 	"nodmgforce" "0"
-	"origin" "1.52588e-05 128 8"
+	"origin" "0 128 8"
 	"spawnflags" "1036"
 	"StartDisabled" "0"
-	"damagecap" "20"
 	solid
 	{
 		"id" "1418"
@@ -10185,6 +10179,79 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "2657"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mg_boxgame_relay_button"
+	connections
+	{
+		"OnTrigger" "mg_boxgame_counter_button,AddOutput,OutValue mg_boxgame_relay_button:Trigger::0:1,0.5,-1"
+		"OnTrigger" "mg_boxgame_counter_button,AddOutput,OutValue mg_boxgame_case_button:InValue::0:1,0.5,-1"
+		"OnTrigger" "mg_boxgame_button_*,Lock,,0,-1"
+	}
+	"origin" "-40 -144 83.107"
+	editor
+	{
+		"color" "100 150 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "2655"
+	"classname" "math_counter"
+	"max" "0"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "mg_boxgame_counter_button"
+	connections
+	{
+		"OutValue" "mg_boxgame_relay_button,Trigger,,0,1"
+		"OutValue" "mg_boxgame_case_button,InValue,,0,1"
+	}
+	"origin" "-32 -144 67.107"
+	editor
+	{
+		"color" "100 255 100"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "2653"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"targetname" "mg_boxgame_case_button"
+	connections
+	{
+		"OnCase01" "mg_boxgame_indicator*,Color,255 255 255,0,-1"
+		"OnCase01" "mg_boxgame_logicrelay,Trigger,,0,-1"
+		"OnCase01" "mg_boxgame_l_logicbranch*,Test,,0,-1"
+		"OnCase02" "mg_boxgame_indicator*,Color,255 255 255,0,-1"
+		"OnCase02" "mg_boxgame_logicrelay,Trigger,,0,-1"
+		"OnCase02" "mg_boxgame_r_logicbranch*,Test,,0,-1"
+	}
+	"origin" "-48 -144 67.107"
+	editor
+	{
+		"color" "100 255 100"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
 	}
 }
 cameras
