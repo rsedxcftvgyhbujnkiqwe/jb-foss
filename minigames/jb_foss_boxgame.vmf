@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8862"
-	"mapversion" "77"
+	"mapversion" "82"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "77"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -3407,7 +3407,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box3,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box3,ForceSpawn,,0,-1"
 	}
 	"origin" "0 -200 56"
 	editor
@@ -3577,7 +3577,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box6,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box6,ForceSpawn,,0,-1"
 	}
 	"origin" "0 -216 56"
 	editor
@@ -3596,9 +3596,7 @@ entity
 	"targetname" "mg_boxgame_control_logicbranch"
 	connections
 	{
-		"OnFalse" "mg_count3,PlaySound,,0,-1"
-		"OnFalse" "mg_count2,PlaySound,,1,-1"
-		"OnFalse" "mg_count1,PlaySound,,2,-1"
+		"OnFalse" "mg_countdown_3,Trigger,,0,-1"
 		"OnFalse" "mg_boxgame_control_button,Color,255 0 0,0,-1"
 		"OnTrue" "mg_boxgame_control_button,Color,0 255 0,0,-1"
 		"OnFalse" "!self,SetValue,1,0,-1"
@@ -3628,7 +3626,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box9,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box9,ForceSpawn,,0,-1"
 	}
 	"origin" "0 -232 56"
 	editor
@@ -3648,7 +3646,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box8,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box8,ForceSpawn,,0,-1"
 	}
 	"origin" "-16 -232 56"
 	editor
@@ -3668,7 +3666,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box4,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box4,ForceSpawn,,0,-1"
 	}
 	"origin" "-32 -216 56"
 	editor
@@ -3844,7 +3842,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box7,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box7,ForceSpawn,,0,-1"
 	}
 	"origin" "-32 -232 56"
 	editor
@@ -3864,7 +3862,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box5,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box5,ForceSpawn,,0,-1"
 	}
 	"origin" "-16 -216 56"
 	editor
@@ -3903,10 +3901,10 @@ entity
 	"id" "1654"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box8"
+	"targetname" "mg_template_boxgame_box8"
 	"Template01" "mg_boxgame_box8"
 	"Template02" "mg_boxgame_box8_h"
-	"origin" "0 -32 288"
+	"origin" "32 -32 288"
 	editor
 	{
 		"color" "100 150 255"
@@ -4311,7 +4309,7 @@ entity
 	"id" "1656"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box7"
+	"targetname" "mg_template_boxgame_box7"
 	"Template01" "mg_boxgame_box7"
 	"Template02" "mg_boxgame_box7_h"
 	"origin" "-160 -32 288"
@@ -7204,7 +7202,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box1,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box1,ForceSpawn,,0,-1"
 	}
 	"origin" "-88 -200 56"
 	editor
@@ -7224,7 +7222,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box2,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box2,ForceSpawn,,0,-1"
 	}
 	"origin" "-72 -200 56"
 	editor
@@ -7244,7 +7242,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box3,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box3,ForceSpawn,,0,-1"
 	}
 	"origin" "-56 -200 56"
 	editor
@@ -7264,7 +7262,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box4,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box4,ForceSpawn,,0,-1"
 	}
 	"origin" "-88 -216 56"
 	editor
@@ -7284,7 +7282,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box5,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box5,ForceSpawn,,0,-1"
 	}
 	"origin" "-72 -216 56"
 	editor
@@ -7304,7 +7302,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box6,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box6,ForceSpawn,,0,-1"
 	}
 	"origin" "-56 -216 56"
 	editor
@@ -7324,7 +7322,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box7,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box7,ForceSpawn,,0,-1"
 	}
 	"origin" "-88 -232 56"
 	editor
@@ -7344,7 +7342,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box8,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box8,ForceSpawn,,0,-1"
 	}
 	"origin" "-72 -232 56"
 	editor
@@ -7364,7 +7362,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box9,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box9,ForceSpawn,,0,-1"
 	}
 	"origin" "-56 -232 56"
 	editor
@@ -7384,7 +7382,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box1,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box1,ForceSpawn,,0,-1"
 	}
 	"origin" "-32 -200 56"
 	editor
@@ -7404,7 +7402,7 @@ entity
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "template_mg_boxgame_box2,ForceSpawn,,0,-1"
+		"OnTrue" "mg_template_boxgame_box2,ForceSpawn,,0,-1"
 	}
 	"origin" "-16 -200 56"
 	editor
@@ -10067,7 +10065,7 @@ entity
 	"id" "1624"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box1"
+	"targetname" "mg_template_boxgame_box1"
 	"Template01" "mg_boxgame_box1"
 	"Template02" "mg_boxgame_box1_h"
 	"origin" "-160 288 288"
@@ -10084,7 +10082,7 @@ entity
 	"id" "1642"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box2"
+	"targetname" "mg_template_boxgame_box2"
 	"Template01" "mg_boxgame_box2"
 	"Template02" "mg_boxgame_box2_h"
 	"origin" "0 288 288"
@@ -10101,7 +10099,7 @@ entity
 	"id" "1644"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box3"
+	"targetname" "mg_template_boxgame_box3"
 	"Template01" "mg_boxgame_box3"
 	"Template02" "mg_boxgame_box3_h"
 	"origin" "160 288 288"
@@ -10118,7 +10116,7 @@ entity
 	"id" "1646"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box6"
+	"targetname" "mg_template_boxgame_box6"
 	"Template01" "mg_boxgame_box6"
 	"Template02" "mg_boxgame_box6_h"
 	"origin" "160 128 288"
@@ -10135,7 +10133,7 @@ entity
 	"id" "1648"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box5"
+	"targetname" "mg_template_boxgame_box5"
 	"Template01" "mg_boxgame_box5"
 	"Template02" "mg_boxgame_box5_h"
 	"origin" "0 128 288"
@@ -10152,7 +10150,7 @@ entity
 	"id" "1650"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box4"
+	"targetname" "mg_template_boxgame_box4"
 	"Template01" "mg_boxgame_box4"
 	"Template02" "mg_boxgame_box4_h"
 	"origin" "-160 128 288"
@@ -10169,7 +10167,7 @@ entity
 	"id" "1652"
 	"classname" "point_template"
 	"spawnflags" "2"
-	"targetname" "template_mg_boxgame_box9"
+	"targetname" "mg_template_boxgame_box9"
 	"Template01" "mg_boxgame_box9"
 	"Template02" "mg_boxgame_box9_h"
 	"origin" "160 -32 288"
@@ -10252,6 +10250,21 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "2758"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_mg_boxgame"
+	"origin" "32 -192 64"
+	editor
+	{
+		"color" "100 150 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
