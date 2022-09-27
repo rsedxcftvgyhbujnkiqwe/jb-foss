@@ -1,5 +1,5 @@
 # jb-foss
-A free and open source jailbreak map developed by blank and gusic
+A free and open source jailbreak map, utilizing a no-compromise methodology for optimization, with self imposed restrictions. Developed by blank and gusic.
 
 ## Things to know
 While not required, this map was created using the following. You can edit it using whatever you'd like, just note potential compatability issues may be present if you do.
