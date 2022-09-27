@@ -4,9 +4,9 @@ This page contains all the minigame vmfs. Since games are not intended to be com
 Many games with buttons will not function unless players are in the playable area, for optimization purposes. If you wish to test a game, ensure that any logic related to this is hidden/removed before compiling.
 
 # Game creation requirements 
-- All logic should be prefixed with mg_<game name>, to make templating easier
+- All logic should be prefixed with mg_gamename, to make templating easier
 - Filters prefix with fil_name
-- Templates prefix with mg_template_<game name>
+- Templates prefix with mg_template_gamename
 - Minigame door/entry side should be divisble by 128. Recommended: 512, 640, 768, 896, 1024 ...
 - Red side door texture should be transparent, blue side opaque (if blue side door required)
 - Don't include the announcer countdown ambient_generic, just make the logic for it (name: mg_countdown_3, Trigger input)
