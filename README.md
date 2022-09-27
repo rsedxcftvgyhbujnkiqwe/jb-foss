@@ -12,8 +12,8 @@ This map was compiled using the following. (NOTE!: add compile flags here once m
 - (?)Vrad multithreading patch
 
 ## Goals
-1: Allow the map to be free, open source, and customizeable. All minigames are separated into instances and in their own vmfs. This way, anyone who wants to remix the map can easily change the minigames out, or simply download a vmf for a specific game without having to decompile the map.
-2: Save as many edicts as can be saved, and use as few logic entities as possible. Games should achieve their intended purpose as efficiently as possible, using the minimum number of required edicts.
-3: All games are limited to use a maximum of 50 edicts, games must be templated to prevent edict consumption when not in use, and games should have proper vis optimization.
-4: Utilize no custom materials whatsoever. No custom textures, sounds, or props. This way, the map is accessible to anyone.
+- Allow the map to be free, open source, and customizeable. All minigames are separated into instances and in their own vmfs. This way, anyone who wants to remix the map can easily change the minigames out, or simply download a vmf for a specific game without having to decompile the map.
+- Save as many edicts as can be saved, and use as few logic entities as possible. Games should achieve their intended purpose as efficiently as possible, using the minimum number of required edicts.
+- All games are limited to use a maximum of 50 edicts, games must be templated to prevent edict consumption when not in use, and games should have proper vis optimization.
+- Utilize no custom materials whatsoever. No custom textures, sounds, or props. This way, the map is accessible to anyone.
 
