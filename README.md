@@ -1,12 +1,19 @@
 # jb-foss
-A free and open source jailbreak map, utilizing a no-compromise methodology for optimization, with self imposed restrictions. Developed by blank and gusic.
+A free and open source jailbreak map, utilizing heavy optimization, with self imposed restrictions. Developed by blank and gusic.
 
 ## Things to know
-While not required, this map was created using the following. You can edit it using whatever you'd like, just note potential compatability issues may be present if you do.
+This map was created using the following. 
 - Hammer++
 - Spud FGD
 
-## Goals
-This map is intended to be a completely open source map that can be used by others to create maps on top of. Inspired by the counterstrike electric razor jailbreak map, this map will have a base layout with the games being instances, allowing for mixing and matching. Additionally, by creating a standard for game dimensions, it will be very easy to move games, and create template games that others can use in versions of the map.
+This map was compiled using the following. (NOTE!: add compile flags here once map releases
+- (?)Slammin vvis 
+- (?)Ficool modded bsp
+- (?)Vrad multithreading patch
 
-Additionally, this map serves as a proof of concept for a cooperative mapping style. By using the instance feature, we can work on games individually without stepping on eachother's toes, allowing changes to be pushed without having the map be all in one file. 
+## Goals
+1: Allow the map to be free, open source, and customizeable. All minigames are separated into instances and in their own vmfs. This way, anyone who wants to remix the map can easily change the minigames out, or simply download a vmf for a specific game without having to decompile the map.
+2: Save as many edicts as can be saved, and use as few logic entities as possible. Games should achieve their intended purpose as efficiently as possible, using the minimum number of required edicts.
+3: All games are limited to use a maximum of 50 edicts, games must be templated to prevent edict consumption when not in use, and games should have proper vis optimization.
+4: Utilize no custom materials whatsoever. No custom textures, sounds, or props. This way, the map is accessible to anyone.
+
