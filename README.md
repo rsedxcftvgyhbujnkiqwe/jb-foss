@@ -1,6 +1,8 @@
 # jb-foss
 A free and open source jailbreak map, utilizing heavy optimization, with self imposed restrictions. Developed by blank and gusic.
 
+See [the license](LICENSE) for information about reusing any vmfs in this repository.
+
 ## Things to know
 This map was created using the following. 
 - Hammer++
