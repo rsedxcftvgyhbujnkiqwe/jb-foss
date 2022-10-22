@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8862"
-	"mapversion" "62"
+	"mapversion" "63"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "62"
+	"mapversion" "63"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -2343,7 +2343,7 @@ world
 	}
 	solid
 	{
-		"id" "5468"
+		"id" "5549"
 		side
 		{
 			"id" "3002"
@@ -2454,7 +2454,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2462,7 +2462,7 @@ world
 	}
 	solid
 	{
-		"id" "5466"
+		"id" "5547"
 		side
 		{
 			"id" "3008"
@@ -2573,7 +2573,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2581,7 +2581,7 @@ world
 	}
 	solid
 	{
-		"id" "5464"
+		"id" "5545"
 		side
 		{
 			"id" "3014"
@@ -2692,7 +2692,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2700,7 +2700,7 @@ world
 	}
 	solid
 	{
-		"id" "5462"
+		"id" "5543"
 		side
 		{
 			"id" "3020"
@@ -2811,7 +2811,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2819,7 +2819,7 @@ world
 	}
 	solid
 	{
-		"id" "5460"
+		"id" "5541"
 		side
 		{
 			"id" "3026"
@@ -2930,7 +2930,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -2938,7 +2938,7 @@ world
 	}
 	solid
 	{
-		"id" "5458"
+		"id" "5539"
 		side
 		{
 			"id" "3032"
@@ -3049,7 +3049,7 @@ world
 		}
 		editor
 		{
-			"color" "0 135 100"
+			"color" "0 198 231"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 			"cordonsolid" "1"
@@ -8405,13 +8405,11 @@ entity
 {
 	"id" "2028"
 	"classname" "logic_branch"
-	"InitialValue" "0"
+	"InitialValue" "1"
 	"targetname" "mg_crush_branch_game"
 	connections
 	{
 		"OnFalse" "mg_crush_counter_level,GetValue,,0.01,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
 		"OnFalse" "mg_crush_b_game,Color,255 0 0,5,-1"
 		"OnTrue" "mg_crush_b_game,Color,0 255 0,5,-1"
 		"OnFalse" "mg_crush_counter_level,SetValue,1,0,-1"
@@ -8513,7 +8511,7 @@ entity
 	"wait" "5"
 	connections
 	{
-		"OnPressed" "mg_crush_branch_game,Test,,0,-1"
+		"OnPressed" "mg_crush_branch_game,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -11197,9 +11195,8 @@ entity
 		"OnCase02" "mg_countdown_3,Trigger,,0,-1"
 		"OnCase03" "mg_countdown_3,Trigger,,0,-1"
 		"OnCase04" "mg_countdown_3,Trigger,,0,-1"
-		"OnCase05" "mg_crush_branch_game,Test,,0.01,-1"
 		"OnCase01" "mg_crush_safety,Disable,,3,-1"
-		"OnCase05" "mg_crush_branch_game,SetValue,1,0,-1"
+		"OnCase05" "mg_crush_branch_game,SetValueTest,1,0,-1"
 	}
 	"origin" "-60 -152 68"
 	editor
@@ -11554,8 +11551,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnEndTouchAll" "mg_crush_branch_game,Test,,0.01,-1"
-		"OnEndTouchAll" "mg_crush_branch_game,SetValue,1,0,-1"
+		"OnEndTouchAll" "mg_crush_branch_game,SetValueTest,1,0.01,-1"
 	}
 	solid
 	{
