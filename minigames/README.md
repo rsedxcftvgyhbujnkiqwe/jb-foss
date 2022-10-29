@@ -5,7 +5,7 @@ Many games with buttons will not function unless players are in the playable are
 
 # Game creation requirements 
 - All logic should be prefixed with mg_gamename, to make templating easier
-- Minigame filters prefix with mg_fil_name (Globals (keep in mind button +use): fil_red, fil_blu)
+- Minigame filters prefix with mg_fil_gamename (Globals: fil_red, fil_blu (keep in mind button +use))
 - Templates prefix with mg_template_gamename
 - Minigame door/entry side should be divisble by 128. Recommended: 512, 640, 768, 896, 1024 ...
 - Red side door texture should be transparent, blue side opaque (if blue side door required)
