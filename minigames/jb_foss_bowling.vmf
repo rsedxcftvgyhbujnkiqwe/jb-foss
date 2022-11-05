@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8862"
-	"mapversion" "36"
+	"editorbuild" "8864"
+	"mapversion" "37"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "37"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -19409,12 +19409,12 @@ entity
 		side
 		{
 			"id" "3469"
-			"plane" "(-240 240 160) (40 240 160) (40 232 160)"
+			"plane" "(-240 240 160) (48 240 160) (48 232 160)"
 			vertices_plus
 			{
 				"v" "-240 240 160"
-				"v" "40 240 160"
-				"v" "40 232 160"
+				"v" "48 240 160"
+				"v" "48 232 160"
 				"v" "-240 232 160"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
@@ -19427,12 +19427,12 @@ entity
 		side
 		{
 			"id" "3468"
-			"plane" "(-240 232 8) (40 232 8) (40 240 8)"
+			"plane" "(-240 232 8) (48 232 8) (48 240 8)"
 			vertices_plus
 			{
 				"v" "-240 232 8"
-				"v" "40 232 8"
-				"v" "40 240 8"
+				"v" "48 232 8"
+				"v" "48 240 8"
 				"v" "-240 240 8"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
@@ -19463,13 +19463,13 @@ entity
 		side
 		{
 			"id" "3466"
-			"plane" "(40 240 8) (40 232 8) (40 232 160)"
+			"plane" "(48 240 8) (48 232 8) (48 232 160)"
 			vertices_plus
 			{
-				"v" "40 240 8"
-				"v" "40 232 8"
-				"v" "40 232 160"
-				"v" "40 240 160"
+				"v" "48 240 8"
+				"v" "48 232 8"
+				"v" "48 232 160"
+				"v" "48 240 160"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -19481,13 +19481,13 @@ entity
 		side
 		{
 			"id" "3465"
-			"plane" "(40 240 160) (-240 240 160) (-240 240 8)"
+			"plane" "(48 240 160) (-240 240 160) (-240 240 8)"
 			vertices_plus
 			{
-				"v" "40 240 160"
+				"v" "48 240 160"
 				"v" "-240 240 160"
 				"v" "-240 240 8"
-				"v" "40 240 8"
+				"v" "48 240 8"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -19499,13 +19499,13 @@ entity
 		side
 		{
 			"id" "3464"
-			"plane" "(40 232 8) (-240 232 8) (-240 232 160)"
+			"plane" "(48 232 8) (-240 232 8) (-240 232 160)"
 			vertices_plus
 			{
-				"v" "40 232 8"
+				"v" "48 232 8"
 				"v" "-240 232 8"
 				"v" "-240 232 160"
-				"v" "40 232 160"
+				"v" "48 232 160"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -36977,8 +36977,8 @@ entity
 			{
 				"v" "144 -24 96"
 				"v" "160 -24 96"
-				"v" "160 -24 -3.8147e-06"
-				"v" "144 -24 -3.8147e-06"
+				"v" "160 -24 -0"
+				"v" "144 -24 -0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -37012,7 +37012,7 @@ entity
 			vertices_plus
 			{
 				"v" "144 -24 96"
-				"v" "144 -24 -3.8147e-06"
+				"v" "144 -24 -0"
 				"v" "144 16 0"
 				"v" "144 16 96"
 			}
@@ -37031,7 +37031,7 @@ entity
 			{
 				"v" "160 16 96"
 				"v" "160 16 0"
-				"v" "160 -24 -3.8147e-06"
+				"v" "160 -24 -0"
 				"v" "160 -24 96"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
@@ -37067,8 +37067,8 @@ entity
 			{
 				"v" "160 16 0"
 				"v" "144 16 0"
-				"v" "144 -24 -3.8147e-06"
-				"v" "160 -24 -3.8147e-06"
+				"v" "144 -24 -0"
+				"v" "160 -24 -0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"

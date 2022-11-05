@@ -825,7 +825,7 @@ entity
 		"OnHitMax" "mg_soccer_kill_team,TurnOn,,1,-1"
 		"OnHitMax" "mg_soccer_kill_team,TurnOff,,1.25,-1"
 		"OnHitMax" "mg_soccer_kill_team,AddOutput,DamageTarget soccer_dummy_target,1.25,-1"
-		"OnHitMax" "mg_soccer_logicbranch_game,SetValueTest,0,1.25,-1"
+		"OnHitMax" "mg_soccer_main,SetValueTest,0,1.25,-1"
 	}
 	"origin" "0 -16 128"
 	editor
@@ -851,7 +851,7 @@ entity
 		"OnHitMax" "mg_soccer_kill_team,AddOutput,DamageTarget soccer_dummy_target,1.25,-1"
 		"OnHitMax" "mg_soccer_kill_team,TurnOff,,1.25,-1"
 		"OnHitMax" "mg_soccer_kill_team,TurnOn,,1,-1"
-		"OnHitMax" "mg_soccer_logicbranch_game,SetValueTest,0,1.25,-1"
+		"OnHitMax" "mg_soccer_main,SetValueTest,0,1.25,-1"
 	}
 	"origin" "0 16 128"
 	editor
@@ -8477,7 +8477,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_soccer_logicbranch_game,ToggleTest,,0,-1"
+		"OnPressed" "mg_soccer_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -10452,7 +10452,7 @@ entity
 	"id" "2244"
 	"classname" "logic_branch"
 	"InitialValue" "0"
-	"targetname" "mg_soccer_logicbranch_game"
+	"targetname" "mg_soccer_main"
 	connections
 	{
 		"OnTrue" "mg_countdown_3,Trigger,,0,-1"

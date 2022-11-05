@@ -8406,7 +8406,7 @@ entity
 	"id" "2028"
 	"classname" "logic_branch"
 	"InitialValue" "1"
-	"targetname" "mg_crush_branch_game"
+	"targetname" "mg_crush_main"
 	connections
 	{
 		"OnFalse" "mg_crush_counter_level,GetValue,,0.01,-1"
@@ -8511,7 +8511,7 @@ entity
 	"wait" "5"
 	connections
 	{
-		"OnPressed" "mg_crush_branch_game,ToggleTest,,0,-1"
+		"OnPressed" "mg_crush_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -11196,7 +11196,7 @@ entity
 		"OnCase03" "mg_countdown_3,Trigger,,0,-1"
 		"OnCase04" "mg_countdown_3,Trigger,,0,-1"
 		"OnCase01" "mg_crush_safety,Disable,,3,-1"
-		"OnCase05" "mg_crush_branch_game,SetValueTest,1,0,-1"
+		"OnCase05" "mg_crush_main,SetValueTest,1,0,-1"
 	}
 	"origin" "-60 -152 68"
 	editor
@@ -11551,7 +11551,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnEndTouchAll" "mg_crush_branch_game,SetValueTest,1,0.01,-1"
+		"OnEndTouchAll" "mg_crush_main,SetValueTest,1,0.01,-1"
 	}
 	solid
 	{

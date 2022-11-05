@@ -3784,7 +3784,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_cannon_control_logicbranch,ToggleTest,,0,-1"
+		"OnPressed" "mg_cannon_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -5743,7 +5743,7 @@ entity
 	"id" "2499"
 	"classname" "logic_branch"
 	"InitialValue" "1"
-	"targetname" "mg_cannon_control_logicbranch"
+	"targetname" "mg_cannon_main"
 	connections
 	{
 		"OnFalse" "mg_countdown_3,PlaySound,,0,-1"

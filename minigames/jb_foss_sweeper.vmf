@@ -1267,7 +1267,7 @@ entity
 	"id" "5691"
 	"classname" "logic_branch"
 	"InitialValue" "0"
-	"targetname" "mg_sweeper_logicbranch_control"
+	"targetname" "mg_sweeper_main"
 	connections
 	{
 		"OnTrue" "mg_countdown_3,PlaySound,,0,-1"
@@ -5262,7 +5262,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_sweeper_logicbranch_control,ToggleTest,,0,-1"
+		"OnPressed" "mg_sweeper_main,ToggleTest,,0,-1"
 	}
 	solid
 	{

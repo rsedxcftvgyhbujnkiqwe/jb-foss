@@ -3593,7 +3593,7 @@ entity
 	"id" "1085"
 	"classname" "logic_branch"
 	"InitialValue" "1"
-	"targetname" "mg_boxgame_control_logicbranch"
+	"targetname" "mg_boxgame_main"
 	connections
 	{
 		"OnFalse" "mg_countdown_3,Trigger,,0,-1"
@@ -3933,7 +3933,7 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnPressed" "mg_boxgame_control_logicbranch,ToggleTest,,0,-1"
+		"OnPressed" "mg_boxgame_main,ToggleTest,,0,-1"
 	}
 	solid
 	{

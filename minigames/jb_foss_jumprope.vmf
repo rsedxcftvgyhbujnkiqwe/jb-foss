@@ -3130,7 +3130,7 @@ entity
 	"id" "310"
 	"classname" "logic_branch"
 	"InitialValue" "0"
-	"targetname" "mg_jumprope_logicbranch_main"
+	"targetname" "mg_jumprope_main"
 	connections
 	{
 		"OnTrue" "mg_jumprope_rope,Start,,3,-1"
@@ -3320,7 +3320,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_jumprope_logicbranch_main,ToggleTest,,0,-1"
+		"OnPressed" "mg_jumprope_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
