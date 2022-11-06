@@ -3085,7 +3085,7 @@ entity
 	"origin" "-136 48 80"
 	"spawnflags" "1"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_h_mr"
+	"targetname" "mg_awpdodge_h_mr"
 	solid
 	{
 		"id" "54"
@@ -3225,7 +3225,7 @@ entity
 	"origin" "-136 -48 80"
 	"spawnflags" "1"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_h_ml"
+	"targetname" "mg_awpdodge_h_ml"
 	solid
 	{
 		"id" "55"
@@ -3365,7 +3365,7 @@ entity
 	"origin" "-136 -144 80"
 	"spawnflags" "1"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_h_l"
+	"targetname" "mg_awpdodge_h_l"
 	solid
 	{
 		"id" "56"
@@ -3505,7 +3505,7 @@ entity
 	"origin" "-136 144 80"
 	"spawnflags" "1"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_h_r"
+	"targetname" "mg_awpdodge_h_r"
 	solid
 	{
 		"id" "53"
@@ -3652,7 +3652,7 @@ entity
 	"spawnflags" "48"
 	"spindown" "0"
 	"spinup" "0"
-	"targetname" "mg_awpd_snd"
+	"targetname" "mg_awpdodge_snd"
 	"volstart" "0"
 	"origin" "-192 176 96"
 	editor
@@ -3683,7 +3683,7 @@ entity
 	"spawnflags" "48"
 	"spindown" "0"
 	"spinup" "0"
-	"targetname" "mg_awpd_snd"
+	"targetname" "mg_awpdodge_snd"
 	"volstart" "0"
 	"origin" "-192 -176 96"
 	editor
@@ -3701,12 +3701,12 @@ entity
 	"RefireTime" "1.8"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_timer3"
+	"targetname" "mg_awpdodge_timer3"
 	connections
 	{
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
 	}
 	"origin" "112 0 48"
 	editor
@@ -3722,10 +3722,10 @@ entity
 	"id" "373"
 	"classname" "math_counter"
 	"max" "72"
-	"targetname" "mg_awpd_math3"
+	"targetname" "mg_awpdodge_math3"
 	connections
 	{
-		"OnHitMax" "mg_awpd_timer3,Disable,,0,-1"
+		"OnHitMax" "mg_awpdodge_timer3,Disable,,0,-1"
 	}
 	"origin" "112 -16 48"
 	editor
@@ -3741,11 +3741,11 @@ entity
 	"id" "375"
 	"classname" "math_counter"
 	"max" "36"
-	"targetname" "mg_awpd_math2"
+	"targetname" "mg_awpdodge_math2"
 	connections
 	{
-		"OnHitMax" "mg_awpd_timer3,Enable,,0,-1"
-		"OnHitMax" "mg_awpd_timer2,Disable,,0,-1"
+		"OnHitMax" "mg_awpdodge_timer3,Enable,,0,-1"
+		"OnHitMax" "mg_awpdodge_timer2,Disable,,0,-1"
 	}
 	"origin" "96 -16 48"
 	editor
@@ -3763,11 +3763,11 @@ entity
 	"RefireTime" "1.8"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_timer2"
+	"targetname" "mg_awpdodge_timer2"
 	connections
 	{
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
 	}
 	"origin" "96 0 48"
 	editor
@@ -3785,10 +3785,10 @@ entity
 	"RefireTime" "1.8"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "mg_awpd_timer1"
+	"targetname" "mg_awpdodge_timer1"
 	connections
 	{
-		"OnTimer" "mg_awpd_picker,PickRandomShuffle,,0,-1"
+		"OnTimer" "mg_awpdodge_picker,PickRandomShuffle,,0,-1"
 	}
 	"origin" "80 0 48"
 	editor
@@ -3804,11 +3804,11 @@ entity
 	"id" "381"
 	"classname" "math_counter"
 	"max" "12"
-	"targetname" "mg_awpd_math1"
+	"targetname" "mg_awpdodge_math1"
 	connections
 	{
-		"OnHitMax" "mg_awpd_timer1,Disable,,0,-1"
-		"OnHitMax" "mg_awpd_timer2,Enable,,0,-1"
+		"OnHitMax" "mg_awpdodge_timer1,Disable,,0,-1"
+		"OnHitMax" "mg_awpdodge_timer2,Enable,,0,-1"
 	}
 	"origin" "80 -16 48"
 	editor
@@ -3823,33 +3823,33 @@ entity
 {
 	"id" "383"
 	"classname" "logic_case"
-	"targetname" "mg_awpd_picker"
+	"targetname" "mg_awpdodge_picker"
 	connections
 	{
-		"OnCase01" "mg_awpd_cover_r,Open,,0,-1"
-		"OnCase01" "mg_awpd_snd,PlaySound,,1.11,-1"
-		"OnCase02" "mg_awpd_snd,PlaySound,,1.11,-1"
-		"OnCase02" "mg_awpd_cover_mr,Open,,0,-1"
-		"OnCase03" "mg_awpd_snd,PlaySound,,1.11,-1"
-		"OnCase03" "mg_awpd_cover_ml,Open,,0,-1"
-		"OnCase04" "mg_awpd_snd,PlaySound,,1.11,-1"
-		"OnCase04" "mg_awpd_cover_l,Open,,0,-1"
-		"OnCase04" "mg_awpd_cover_l,Close,,1.41,-1"
-		"OnCase03" "mg_awpd_cover_ml,Close,,1.41,-1"
-		"OnCase02" "mg_awpd_cover_mr,Close,,1.41,-1"
-		"OnCase01" "mg_awpd_cover_r,Close,,1.41,-1"
-		"OnCase01" "mg_awpd_h_r,Enable,,1.11,-1"
-		"OnCase01" "mg_awpd_h_r,Disable,,1.12,-1"
-		"OnCase02" "mg_awpd_h_mr,Disable,,1.12,-1"
-		"OnCase02" "mg_awpd_h_mr,Enable,,1.11,-1"
-		"OnCase03" "mg_awpd_h_ml,Disable,,1.12,-1"
-		"OnCase03" "mg_awpd_h_ml,Enable,,1.11,-1"
-		"OnCase04" "mg_awpd_h_l,Disable,,1.12,-1"
-		"OnCase04" "mg_awpd_h_l,Enable,,1.11,-1"
-		"OnCase01" "mg_awpd_math*,Add,1,0,-1"
-		"OnCase02" "mg_awpd_math*,Add,1,0,-1"
-		"OnCase03" "mg_awpd_math*,Add,1,0,-1"
-		"OnCase04" "mg_awpd_math*,Add,1,0,-1"
+		"OnCase01" "mg_awpdodge_cover_r,Open,,0,-1"
+		"OnCase01" "mg_awpdodge_snd,PlaySound,,1.11,-1"
+		"OnCase02" "mg_awpdodge_snd,PlaySound,,1.11,-1"
+		"OnCase02" "mg_awpdodge_cover_mr,Open,,0,-1"
+		"OnCase03" "mg_awpdodge_snd,PlaySound,,1.11,-1"
+		"OnCase03" "mg_awpdodge_cover_ml,Open,,0,-1"
+		"OnCase04" "mg_awpdodge_snd,PlaySound,,1.11,-1"
+		"OnCase04" "mg_awpdodge_cover_l,Open,,0,-1"
+		"OnCase04" "mg_awpdodge_cover_l,Close,,1.41,-1"
+		"OnCase03" "mg_awpdodge_cover_ml,Close,,1.41,-1"
+		"OnCase02" "mg_awpdodge_cover_mr,Close,,1.41,-1"
+		"OnCase01" "mg_awpdodge_cover_r,Close,,1.41,-1"
+		"OnCase01" "mg_awpdodge_h_r,Enable,,1.11,-1"
+		"OnCase01" "mg_awpdodge_h_r,Disable,,1.12,-1"
+		"OnCase02" "mg_awpdodge_h_mr,Disable,,1.12,-1"
+		"OnCase02" "mg_awpdodge_h_mr,Enable,,1.11,-1"
+		"OnCase03" "mg_awpdodge_h_ml,Disable,,1.12,-1"
+		"OnCase03" "mg_awpdodge_h_ml,Enable,,1.11,-1"
+		"OnCase04" "mg_awpdodge_h_l,Disable,,1.12,-1"
+		"OnCase04" "mg_awpdodge_h_l,Enable,,1.11,-1"
+		"OnCase01" "mg_awpdodge_math*,Add,1,0,-1"
+		"OnCase02" "mg_awpdodge_math*,Add,1,0,-1"
+		"OnCase03" "mg_awpdodge_math*,Add,1,0,-1"
+		"OnCase04" "mg_awpdodge_math*,Add,1,0,-1"
 	}
 	"origin" "80 16 48"
 	editor
@@ -3876,13 +3876,13 @@ entity
 	"rendermode" "0"
 	"spawnflags" "1537"
 	"speed" "0"
-	"targetname" "mg_awpd_button"
+	"targetname" "mg_awpdodge_button"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_awpd_logicbranch,ToggleTest,,0,-1"
+		"OnPressed" "mg_awpdodge_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -4031,7 +4031,7 @@ entity
 	"spawnflags" "4100"
 	"spawnpos" "0"
 	"speed" "500"
-	"targetname" "mg_awpd_cover_ml"
+	"targetname" "mg_awpdodge_cover_ml"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "-1"
@@ -4182,7 +4182,7 @@ entity
 	"spawnflags" "4100"
 	"spawnpos" "0"
 	"speed" "500"
-	"targetname" "mg_awpd_cover_r"
+	"targetname" "mg_awpdodge_cover_r"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "-1"
@@ -4333,7 +4333,7 @@ entity
 	"spawnflags" "4100"
 	"spawnpos" "0"
 	"speed" "500"
-	"targetname" "mg_awpd_cover_mr"
+	"targetname" "mg_awpdodge_cover_mr"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "-1"
@@ -4484,7 +4484,7 @@ entity
 	"spawnflags" "4100"
 	"spawnpos" "0"
 	"speed" "500"
-	"targetname" "mg_awpd_cover_l"
+	"targetname" "mg_awpdodge_cover_l"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "-1"
@@ -4619,21 +4619,21 @@ entity
 	"id" "726"
 	"classname" "logic_branch"
 	"InitialValue" "1"
-	"targetname" "mg_awpd_logicbranch"
+	"targetname" "mg_awpdodge_main"
 	connections
 	{
 		"OnTrue" "!self,SetValue,0,0,-1"
 		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "mg_awpd_button,Color,0 255 0,0,-1"
-		"OnFalse" "mg_awpd_button,Color,255 0 0,0,-1"
+		"OnTrue" "mg_awpdodge_button,Color,0 255 0,0,-1"
+		"OnFalse" "mg_awpdodge_button,Color,255 0 0,0,-1"
 		"OnFalse" "mg_countdown_3,Trigger,,0,-1"
 		"OnFalse" "mg_template_awpd,ForceSpawn,,2.95,-1"
-		"OnFalse" "mg_awpd_timer1,Enable,,3,-1"
-		"OnTrue" "mg_awpd_math*,Kill,,0,-1"
-		"OnTrue" "mg_awpd_timer*,Kill,,0,-1"
-		"OnTrue" "mg_awpd_picker,Kill,,0,-1"
-		"OnTrue" "mg_awpd_snd,Kill,,0,-1"
-		"OnTrue" "mg_awpd_h*,Kill,,0,-1"
+		"OnFalse" "mg_awpdodge_timer1,Enable,,3,-1"
+		"OnTrue" "mg_awpdodge_math*,Kill,,0,-1"
+		"OnTrue" "mg_awpdodge_timer*,Kill,,0,-1"
+		"OnTrue" "mg_awpdodge_picker,Kill,,0,-1"
+		"OnTrue" "mg_awpdodge_snd,Kill,,0,-1"
+		"OnTrue" "mg_awpdodge_h*,Kill,,0,-1"
 	}
 	"origin" "32 0 48"
 	editor
@@ -4650,11 +4650,11 @@ entity
 	"classname" "point_template"
 	"spawnflags" "2"
 	"targetname" "mg_template_awpd"
-	"Template01" "mg_awpd_picker"
-	"Template02" "mg_awpd_timer*"
-	"Template03" "mg_awpd_snd"
-	"Template04" "mg_awpd_h*"
-	"Template05" "mg_awpd_math*"
+	"Template01" "mg_awpdodge_picker"
+	"Template02" "mg_awpdodge_timer*"
+	"Template03" "mg_awpdodge_snd"
+	"Template04" "mg_awpdodge_h*"
+	"Template05" "mg_awpdodge_math*"
 	"origin" "64 0 48"
 	editor
 	{
@@ -4685,7 +4685,7 @@ entity
 	"spawnflags" "0"
 	"spawnpos" "0"
 	"speed" "100"
-	"targetname" "mg_awpd_door_r"
+	"targetname" "mg_awpdodge_door_r"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "-1"

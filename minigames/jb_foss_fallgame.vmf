@@ -1539,7 +1539,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_fallgame_logicbranch_controller,ToggleTest,,0,-1"
+		"OnPressed" "mg_fallgame_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -2902,7 +2902,7 @@ entity
 	"id" "495"
 	"classname" "logic_branch"
 	"InitialValue" "0"
-	"targetname" "mg_fallgame_logicbranch_controller"
+	"targetname" "mg_fallgame_main"
 	connections
 	{
 		"OnTrue" "mg_fallgame_trigger,Enable,,3,-1"
@@ -2963,7 +2963,7 @@ entity
 	"targetname" "mg_fallgame_counter_autostop"
 	connections
 	{
-		"OnHitMax" "mg_fallgame_logicbranch_controller,SetValueTest,0,0,-1"
+		"OnHitMax" "mg_fallgame_main,SetValueTest,0,0,-1"
 	}
 	"origin" "48 -272 144"
 	editor

@@ -8799,7 +8799,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnEndTouchAll" "mg_hitw_branch_game,SetValueTest,1,0,-1"
+		"OnEndTouchAll" "mg_hitw_main,SetValueTest,1,0,-1"
 	}
 	solid
 	{
@@ -35588,7 +35588,7 @@ entity
 	"wait" "5"
 	connections
 	{
-		"OnPressed" "mg_hitw_branch_game,ToggleTest,,0,-1"
+		"OnPressed" "mg_hitw_main,ToggleTest,,0,-1"
 	}
 	solid
 	{
@@ -35721,7 +35721,7 @@ entity
 	"id" "8099"
 	"classname" "logic_branch"
 	"InitialValue" "1"
-	"targetname" "mg_hitw_branch_game"
+	"targetname" "mg_hitw_main"
 	connections
 	{
 		"OnFalse" "mg_template_hitw_b,ForceSpawn,,3,-1"
