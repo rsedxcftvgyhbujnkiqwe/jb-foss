@@ -6,6 +6,7 @@ Many games with buttons will not function unless players are in the playable are
 # Game creation requirements 
 - All logic should be prefixed with ***mg_gamename***, to make templating easier
 - 	-logic_branch controlling minigame's start/stop should be named ***mg_gamename_main***
+-   ---func_button controlling main logic_branch should be named ***mg_gamename_main_button***
 - Minigame filters prefix with ***mg_fil_gamename*** (Globals: ***fil_red***, ***fil_blu*** (keep in mind button +use))
 - Templates prefix with ***mg_template_gamename***
 - Don't include the announcer countdown ambient_generic, just make the logic for it (logic_relay name: ***mg_countdown_3***. Input: Trigger)

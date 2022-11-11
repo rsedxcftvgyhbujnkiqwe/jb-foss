@@ -8410,8 +8410,8 @@ entity
 	connections
 	{
 		"OnFalse" "mg_crush_counter_level,GetValue,,0.01,-1"
-		"OnFalse" "mg_crush_b_game,Color,255 0 0,5,-1"
-		"OnTrue" "mg_crush_b_game,Color,0 255 0,5,-1"
+		"OnFalse" "mg_crush_main_button,Color,255 0 0,5,-1"
+		"OnTrue" "mg_crush_main_button,Color,0 255 0,5,-1"
 		"OnFalse" "mg_crush_counter_level,SetValue,1,0,-1"
 		"OnTrue" "mg_crush_relay_gameover,Trigger,,0,-1"
 		"OnFalse" "mg_template_crush_game,ForceSpawn,,0,-1"
@@ -8505,7 +8505,7 @@ entity
 	"rendermode" "0"
 	"spawnflags" "3585"
 	"speed" "0"
-	"targetname" "mg_crush_b_game"
+	"targetname" "mg_crush_main_button"
 	"texframeindex" "0"
 	"vrad_brush_cast_shadows" "0"
 	"wait" "5"
@@ -11690,8 +11690,8 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnStartTouchAll" "mg_crush_b_game,Unlock,,0,-1"
-		"OnEndTouchAll" "mg_crush_b_game,Lock,,0,-1"
+		"OnStartTouchAll" "mg_crush_main_button,Unlock,,0,-1"
+		"OnEndTouchAll" "mg_crush_main_button,Lock,,0,-1"
 	}
 	solid
 	{

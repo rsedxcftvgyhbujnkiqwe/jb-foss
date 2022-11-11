@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8862"
-	"mapversion" "17"
+	"editorbuild" "8864"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -1693,7 +1693,7 @@ entity
 	"movedir" "0 0 0"
 	"origin" "168 8 234"
 	"renderamt" "255"
-	"rendercolor" "255 255 255"
+	"rendercolor" "0 0 255"
 	"renderfx" "0"
 	"rendermode" "0"
 	"spawnflags" "1537"
@@ -1719,7 +1719,7 @@ entity
 				"v" "174 2 228"
 				"v" "162 2 228"
 			}
-			"material" "TEST/COLOR_BLUE"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1737,7 +1737,7 @@ entity
 				"v" "174 14 240"
 				"v" "162 14 240"
 			}
-			"material" "TEST/COLOR_BLUE"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1755,7 +1755,7 @@ entity
 				"v" "162 14 228"
 				"v" "162 14 240"
 			}
-			"material" "TEST/COLOR_BLUE"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1773,7 +1773,7 @@ entity
 				"v" "174 2 228"
 				"v" "174 2 240"
 			}
-			"material" "TEST/COLOR_BLUE"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1791,7 +1791,7 @@ entity
 				"v" "162 14 240"
 				"v" "174 14 240"
 			}
-			"material" "TEST/COLOR_BLUE"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1842,7 +1842,7 @@ entity
 	"movedir" "0 0 0"
 	"origin" "344 8 234"
 	"renderamt" "255"
-	"rendercolor" "255 255 255"
+	"rendercolor" "255 0 0"
 	"renderfx" "0"
 	"rendermode" "0"
 	"spawnflags" "1537"
@@ -1868,7 +1868,7 @@ entity
 				"v" "350 2 228"
 				"v" "338 2 228"
 			}
-			"material" "TEST/COLOR_RED"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1886,7 +1886,7 @@ entity
 				"v" "350 14 240"
 				"v" "338 14 240"
 			}
-			"material" "TEST/COLOR_RED"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1904,7 +1904,7 @@ entity
 				"v" "338 14 228"
 				"v" "338 14 240"
 			}
-			"material" "TEST/COLOR_RED"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1922,7 +1922,7 @@ entity
 				"v" "350 2 228"
 				"v" "350 2 240"
 			}
-			"material" "TEST/COLOR_RED"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1940,7 +1940,7 @@ entity
 				"v" "338 14 240"
 				"v" "350 14 240"
 			}
-			"material" "TEST/COLOR_RED"
+			"material" "CONCRETE/COMPUTERWALL002"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
