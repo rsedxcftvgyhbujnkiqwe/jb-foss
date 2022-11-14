@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "31"
+	"mapversion" "32"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "31"
+	"mapversion" "32"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -2626,25 +2626,30 @@ entity
 }
 entity
 {
-	"id" "851"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_hardfalloff" "0"
-	"_light" "254 210 152 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"defaultstyle" "0"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "0 0 80"
+	"id" "1175"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1.0"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_wasteland/prison_lamp001c.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "0 0 154"
 	editor
 	{
-		"color" "255 255 255"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -11268]"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -3033,6 +3038,29 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1168"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_hardfalloff" "0"
+	"_light" "254 210 152 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"defaultstyle" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 0 112"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
