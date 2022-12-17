@@ -81,122 +81,125 @@ world
 	"maxpropscreenwidth" "-1"
 	"minoccluderarea" "0.0"
 	"skyname" "sky_tf2_04"
-	solid
+	hidden
 	{
-		"id" "104"
-		side
+		solid
 		{
-			"id" "7"
-			"plane" "(-256 -272 224) (7.62939e-06 -272 224) (7.62939e-06 -272 -16)"
-			vertices_plus
+			"id" "104"
+			side
 			{
-				"v" "-256 -272 224"
-				"v" "0 -272 224"
-				"v" "0 -272 -16"
-				"v" "-256 -272 -16"
+				"id" "7"
+				"plane" "(-256 -272 224) (7.62939e-06 -272 224) (7.62939e-06 -272 -16)"
+				vertices_plus
+				{
+					"v" "-256 -272 224"
+					"v" "0 -272 224"
+					"v" "0 -272 -16"
+					"v" "-256 -272 -16"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8"
-			"plane" "(-256 0 -16) (7.62939e-06 0 -16) (7.62939e-06 0 224)"
-			vertices_plus
+			side
 			{
-				"v" "-256 0 -16"
-				"v" "0 0 -16"
-				"v" "0 0 224"
-				"v" "-256 0 224"
+				"id" "8"
+				"plane" "(-256 0 -16) (7.62939e-06 0 -16) (7.62939e-06 0 224)"
+				vertices_plus
+				{
+					"v" "-256 0 -16"
+					"v" "0 0 -16"
+					"v" "0 0 224"
+					"v" "-256 0 224"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9"
-			"plane" "(-256 -272 224) (-256 -272 -16) (-256 0 -16)"
-			vertices_plus
+			side
 			{
-				"v" "-256 -272 224"
-				"v" "-256 -272 -16"
-				"v" "-256 0 -16"
-				"v" "-256 0 224"
+				"id" "9"
+				"plane" "(-256 -272 224) (-256 -272 -16) (-256 0 -16)"
+				vertices_plus
+				{
+					"v" "-256 -272 224"
+					"v" "-256 -272 -16"
+					"v" "-256 0 -16"
+					"v" "-256 0 224"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10"
-			"plane" "(7.62939e-06 0 224) (7.62939e-06 0 -16) (7.62939e-06 -272 -16)"
-			vertices_plus
+			side
 			{
-				"v" "0 0 224"
-				"v" "0 0 -16"
-				"v" "0 -272 -16"
-				"v" "0 -272 224"
+				"id" "10"
+				"plane" "(7.62939e-06 0 224) (7.62939e-06 0 -16) (7.62939e-06 -272 -16)"
+				vertices_plus
+				{
+					"v" "0 0 224"
+					"v" "0 0 -16"
+					"v" "0 -272 -16"
+					"v" "0 -272 224"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "11"
-			"plane" "(7.62939e-06 -272 224) (-256 -272 224) (-256 0 224)"
-			vertices_plus
+			side
 			{
-				"v" "0 -272 224"
-				"v" "-256 -272 224"
-				"v" "-256 0 224"
-				"v" "0 0 224"
+				"id" "11"
+				"plane" "(7.62939e-06 -272 224) (-256 -272 224) (-256 0 224)"
+				vertices_plus
+				{
+					"v" "0 -272 224"
+					"v" "-256 -272 224"
+					"v" "-256 0 224"
+					"v" "0 0 224"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 -1 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "12"
-			"plane" "(7.62939e-06 0 -16) (-256 0 -16) (-256 -272 -16)"
-			vertices_plus
+			side
 			{
-				"v" "0 0 -16"
-				"v" "-256 0 -16"
-				"v" "-256 -272 -16"
-				"v" "0 -272 -16"
+				"id" "12"
+				"plane" "(7.62939e-06 0 -16) (-256 0 -16) (-256 -272 -16)"
+				vertices_plus
+				{
+					"v" "0 0 -16"
+					"v" "-256 0 -16"
+					"v" "-256 -272 -16"
+					"v" "0 -272 -16"
+				}
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 -1 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
 			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 148 229"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
+			editor
+			{
+				"color" "0 148 229"
+				"visgroupshown" "1"
+				"visgroupautoshown" "1"
+			}
 		}
 	}
 	solid
@@ -1624,10 +1627,10 @@ entity
 	"targetname" "mg_jumprope_logicbranch_friction"
 	connections
 	{
-		"OnFalse" "mg_jumprope_rope,AddOutput,fanfriction 75,0,-1"
-		"OnTrue" "mg_jumprope_rope,AddOutput,fanfriction 25,0,-1"
-		"OnTrue" "mg_jumprope_friction_button,Color,255 165 0,0,-1"
-		"OnFalse" "mg_jumprope_friction_button,Color,0 0 255,0,-1"
+		"OnFalse" "mg_jumprope_ropeAddOutputfanfriction 750-1"
+		"OnTrue" "mg_jumprope_ropeAddOutputfanfriction 250-1"
+		"OnTrue" "mg_jumprope_friction_buttonColor255 165 00-1"
+		"OnFalse" "mg_jumprope_friction_buttonColor0 0 2550-1"
 	}
 	"origin" "-216 -264 64"
 	editor
@@ -3142,18 +3145,18 @@ entity
 	"targetname" "mg_jumprope_main"
 	connections
 	{
-		"OnTrue" "mg_jumprope_rope,Start,,3,-1"
-		"OnTrue" "mg_countdown_3,Trigger,,0,-1"
-		"OnFalse" "mg_jumprope_rop*,Kill,,0,-1"
-		"OnTrue" "mg_template_jumprope,ForceSpawn,,0,-1"
-		"OnFalse" "mg_jumprope_floor*,Kill,,0,-1"
-		"OnFalse" "mg_jumprope_pickhalf,Kill,,0,-1"
-		"OnFalse" "mg_jumprope_killhalf,Kill,,0,-1"
-		"OnTrue" "mg_jumprope_pickhalf,Enable,,30,-1"
-		"OnTrue" "mg_jumprope_pickhalf,Trigger,,30,-1"
-		"OnTrue" "mg_jumprope_speed_indicator_tp,InValue,3,0,-1"
-		"OnTrue" "mg_jumprope_main_button,Color,255 0 0,0,-1"
-		"OnFalse" "mg_jumprope_main_button,Color,0 255 0,0,-1"
+		"OnTrue" "mg_jumprope_ropeStart3-1"
+		"OnTrue" "mg_countdown_3Trigger0-1"
+		"OnFalse" "mg_jumprope_rop*Kill0-1"
+		"OnTrue" "mg_template_jumpropeForceSpawn0-1"
+		"OnFalse" "mg_jumprope_floor*Kill0-1"
+		"OnFalse" "mg_jumprope_pickhalfKill0-1"
+		"OnFalse" "mg_jumprope_killhalfKill0-1"
+		"OnTrue" "mg_jumprope_pickhalfEnable30-1"
+		"OnTrue" "mg_jumprope_pickhalfTrigger30-1"
+		"OnTrue" "mg_jumprope_speed_indicator_tpInValue30-1"
+		"OnTrue" "mg_jumprope_main_buttonColor255 0 00-1"
+		"OnFalse" "mg_jumprope_main_buttonColor0 255 00-1"
 	}
 	"origin" "-144 -264 48"
 	editor
@@ -3331,7 +3334,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnPressed" "mg_jumprope_main,ToggleTest,,0,-1"
+		"OnPressed" "mg_jumprope_mainToggleTest0-1"
 	}
 	solid
 	{
@@ -3641,7 +3644,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jumprope_speed_direction,SetValue,2,0,-1"
+		"OnPressed" "mg_jumprope_speed_directionSetValue20-1"
 	}
 	solid
 	{
@@ -3771,7 +3774,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jumprope_speed_direction,SetValue,1,0,-1"
+		"OnPressed" "mg_jumprope_speed_directionSetValue10-1"
 	}
 	solid
 	{
@@ -4048,7 +4051,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jumprope_logicbranch_friction,ToggleTest,,0,-1"
+		"OnPressed" "mg_jumprope_logicbranch_frictionToggleTest0-1"
 	}
 	solid
 	{
@@ -4659,8 +4662,8 @@ entity
 	"targetname" "mg_jumprope_speed_direction"
 	connections
 	{
-		"OutValue" "mg_jumprope_speed_refire_buttons,Trigger,,0,1"
-		"OutValue" "mg_jumprope_speed_adjust,InValue,,0,1"
+		"OutValue" "mg_jumprope_speed_refire_buttonsTrigger01"
+		"OutValue" "mg_jumprope_speed_adjustInValue01"
 	}
 	"origin" "-244 -264 46.3925"
 	editor
@@ -4675,16 +4678,17 @@ entity
 {
 	"id" "704"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "-252 -264 62.39"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "mg_jumprope_speed_refire_buttons"
 	connections
 	{
-		"OnTrigger" "mg_jumprope_speed_direction,AddOutput,OutValue mg_jumprope_speed_refire_buttons:Trigger::0:1,0.6,-1"
-		"OnTrigger" "mg_jumprope_speed_direction,AddOutput,OutValue mg_jumprope_speed_adjust:InValue::0:1,0.6,-1"
-		"OnTrigger" "mg_jumprope_speed_buttons,Lock,,0,-1"
+		"OnTrigger" "mg_jumprope_speed_directionAddOutputOutValue mg_jumprope_speed_refire_buttons:Trigger::0:10.6-1"
+		"OnTrigger" "mg_jumprope_speed_directionAddOutputOutValue mg_jumprope_speed_adjust:InValue::0:10.6-1"
+		"OnTrigger" "mg_jumprope_speed_buttonsLock0-1"
 	}
-	"origin" "-252 -264 62.3925"
 	editor
 	{
 		"color" "100 150 255"
@@ -4702,8 +4706,8 @@ entity
 	"targetname" "mg_jumprope_speed_adjust"
 	connections
 	{
-		"OnCase02" "mg_jumprope_speed_set,Add,1,0,-1"
-		"OnCase01" "mg_jumprope_speed_set,Subtract,1,0,-1"
+		"OnCase02" "mg_jumprope_speed_setAdd10-1"
+		"OnCase01" "mg_jumprope_speed_setSubtract10-1"
 	}
 	"origin" "-236 -264 62.3925"
 	editor
@@ -4725,8 +4729,8 @@ entity
 	"targetname" "mg_jumprope_speed_set"
 	connections
 	{
-		"OutValue" "mg_jumprope_speed_indicator_tp,InValue,,0,-1"
-		"OutValue" "mg_jumprope_speed_buttons,Unlock,,0,-1"
+		"OutValue" "mg_jumprope_speed_indicator_tpInValue0-1"
+		"OutValue" "mg_jumprope_speed_buttonsUnlock0-1"
 	}
 	"origin" "-244 -264 78.3925"
 	editor
@@ -4749,16 +4753,16 @@ entity
 	"targetname" "mg_jumprope_speed_indicator_tp"
 	connections
 	{
-		"OnCase01" "mg_jumprope_speed_indicator,SetPosition,-1,0,-1"
-		"OnCase02" "mg_jumprope_speed_indicator,SetPosition,-0.5,0,-1"
-		"OnCase03" "mg_jumprope_speed_indicator,SetPosition,0,0,-1"
-		"OnCase04" "mg_jumprope_speed_indicator,SetPosition,0.5,0,-1"
-		"OnCase05" "mg_jumprope_speed_indicator,SetPosition,1,0,-1"
-		"OnCase01" "mg_jumprope_rope,SetSpeed,0.17,0,-1"
-		"OnCase02" "mg_jumprope_rope,SetSpeed,0.33,0,-1"
-		"OnCase03" "mg_jumprope_rope,SetSpeed,0.5,0,-1"
-		"OnCase04" "mg_jumprope_rope,SetSpeed,0.75,0,-1"
-		"OnCase05" "mg_jumprope_rope,SetSpeed,1,0,-1"
+		"OnCase01" "mg_jumprope_speed_indicatorSetPosition-10-1"
+		"OnCase02" "mg_jumprope_speed_indicatorSetPosition-0.50-1"
+		"OnCase03" "mg_jumprope_speed_indicatorSetPosition00-1"
+		"OnCase04" "mg_jumprope_speed_indicatorSetPosition0.50-1"
+		"OnCase05" "mg_jumprope_speed_indicatorSetPosition10-1"
+		"OnCase01" "mg_jumprope_ropeSetSpeed0.170-1"
+		"OnCase02" "mg_jumprope_ropeSetSpeed0.330-1"
+		"OnCase03" "mg_jumprope_ropeSetSpeed0.50-1"
+		"OnCase04" "mg_jumprope_ropeSetSpeed0.750-1"
+		"OnCase05" "mg_jumprope_ropeSetSpeed10-1"
 	}
 	"origin" "-244 -264 94.3925"
 	editor
@@ -5533,15 +5537,16 @@ entity
 {
 	"id" "1855"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "-144 -264 80"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	"targetname" "mg_jumprope_pickhalf"
 	connections
 	{
-		"OnTrigger" "mg_jumprope_killhalf,PickRandom,,0,-1"
-		"OnTrigger" "!self,Trigger,,3,-1"
+		"OnTrigger" "mg_jumprope_killhalfPickRandom0-1"
+		"OnTrigger" "!selfTrigger3-1"
 	}
-	"origin" "-144 -264 80"
 	editor
 	{
 		"color" "100 150 255"
@@ -5557,26 +5562,26 @@ entity
 	"targetname" "mg_jumprope_killhalf"
 	connections
 	{
-		"OnCase01" "mg_jumprope_floor_left,Color,255 0 0,0,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 255 255,0.1,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 0 0,0.3,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 255 255,0.4,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 255 255,0.7,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 0 0,0.6,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 0 0,0.9,-1"
-		"OnCase01" "mg_jumprope_floor_left_kill,Enable,,0.9,-1"
-		"OnCase01" "mg_jumprope_floor_left_kill,Disable,,0.95,-1"
-		"OnCase01" "mg_jumprope_floor_left,Color,255 255 255,1.2,-1"
-		"OnCase02" "mg_jumprope_floor_right_kill,Disable,,0.95,-1"
-		"OnCase02" "mg_jumprope_floor_right_kill,Enable,,0.9,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 255 255,1.2,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 0 0,0.9,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 255 255,0.7,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 0 0,0.6,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 255 255,0.4,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 0 0,0.3,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 255 255,0.1,-1"
-		"OnCase02" "mg_jumprope_floor_right,Color,255 0 0,0,-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 0 00-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 255 2550.1-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 0 00.3-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 255 2550.4-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 255 2550.7-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 0 00.6-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 0 00.9-1"
+		"OnCase01" "mg_jumprope_floor_left_killEnable0.9-1"
+		"OnCase01" "mg_jumprope_floor_left_killDisable0.95-1"
+		"OnCase01" "mg_jumprope_floor_leftColor255 255 2551.2-1"
+		"OnCase02" "mg_jumprope_floor_right_killDisable0.95-1"
+		"OnCase02" "mg_jumprope_floor_right_killEnable0.9-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 255 2551.2-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 0 00.9-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 255 2550.7-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 0 00.6-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 255 2550.4-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 0 00.3-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 255 2550.1-1"
+		"OnCase02" "mg_jumprope_floor_rightColor255 0 00-1"
 	}
 	"origin" "-144 -264 96"
 	editor
@@ -5874,4 +5879,8 @@ cameras
 cordons
 {
 	"active" "0"
+}
+quickhide
+{
+	"count" "1"
 }
