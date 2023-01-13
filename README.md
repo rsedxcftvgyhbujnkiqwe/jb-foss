@@ -2,6 +2,8 @@
 A free and open source jailbreak map, utilizing heavy optimization, with self imposed restrictions. Developed by blank and gusic.
 
 ## Things to know
+Development happens in dev branch. This map is still under construction! While you are *technically* free to use anything here, it would be appreciated if you could wait until this map is released first.
+
 This map was created using the following. 
 - Hammer++
 - Spud FGD
