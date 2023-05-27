@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "13"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -1046,8 +1046,8 @@ entity
 	"targetname" "mg_splat_8seconds_group1"
 	connections
 	{
-		"OnFullyOpen" "mg_splat_8seconds_group1,Close,,0,-1"
-		"OnFullyClosed" "mg_splat_8seconds_group1,Open,,8,-1"
+		"OnFullyClosed" "!selfOpen8-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{
@@ -2021,8 +2021,8 @@ entity
 	"targetname" "mg_splat_4seconds_group1"
 	connections
 	{
-		"OnFullyOpen" "mg_splat_4seconds_group1,Close,,0,-1"
-		"OnFullyClosed" "mg_splat_4seconds_group1,Open,,4,-1"
+		"OnFullyClosed" "!selfOpen4-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{
@@ -2996,8 +2996,8 @@ entity
 	"targetname" "mg_splat_2seconds_group1"
 	connections
 	{
-		"OnFullyClosed" "mg_splat_2seconds_group1,Open,,2,-1"
-		"OnFullyOpen" "mg_splat_2seconds_group1,Close,,0,-1"
+		"OnFullyClosed" "!selfOpen2-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{
@@ -4089,8 +4089,8 @@ entity
 	"targetname" "mg_splat_4seconds_group2"
 	connections
 	{
-		"OnFullyOpen" "mg_splat_4seconds_group2,Close,,0,-1"
-		"OnFullyClosed" "mg_splat_4seconds_group2,Open,,4,-1"
+		"OnFullyClosed" "!selfOpen4-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{
@@ -4946,8 +4946,8 @@ entity
 	"targetname" "mg_splat_8seconds_group2"
 	connections
 	{
-		"OnFullyClosed" "mg_splat_8seconds_group2,Open,,8,-1"
-		"OnFullyOpen" "mg_splat_8seconds_group2,Close,,0,-1"
+		"OnFullyClosed" "!selfOpen8-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{
@@ -5803,8 +5803,8 @@ entity
 	"targetname" "mg_splat_2seconds_group2"
 	connections
 	{
-		"OnFullyClosed" "mg_splat_2seconds_group2,Open,,2,-1"
-		"OnFullyOpen" "mg_splat_2seconds_group2,Close,,0,-1"
+		"OnFullyClosed" "!selfOpen2-1"
+		"OnFullyOpen" "!selfClose0-1"
 	}
 	solid
 	{

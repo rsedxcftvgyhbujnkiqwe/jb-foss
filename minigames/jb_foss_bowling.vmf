@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "39"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "39"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -20285,11 +20285,6 @@ entity
 	"spawnflags" "1"
 	"targetname" "mg_bowling_ball_l"
 	"texframeindex" "0"
-	connections
-	{
-		"OnAwakened" "mg_template_bowling_ball_l,ForceSpawn,,3,-1"
-		"OnAwakened" "!self,Kill,,2.95,-1"
-	}
 	"origin" "32 -192 56"
 	editor
 	{
@@ -20331,11 +20326,6 @@ entity
 	"spawnflags" "1"
 	"targetname" "mg_bowling_ball_ml"
 	"texframeindex" "0"
-	connections
-	{
-		"OnAwakened" "!self,Kill,,2.95,-1"
-		"OnAwakened" "mg_template_bowling_ball_ml,ForceSpawn,,3,-1"
-	}
 	"origin" "32 -96 56"
 	editor
 	{
@@ -20377,11 +20367,6 @@ entity
 	"spawnflags" "1"
 	"targetname" "mg_bowling_ball_m"
 	"texframeindex" "0"
-	connections
-	{
-		"OnAwakened" "mg_template_bowling_ball_m,ForceSpawn,,3,-1"
-		"OnAwakened" "!self,Kill,,2.95,-1"
-	}
 	"origin" "32 0 56"
 	editor
 	{
@@ -20423,11 +20408,6 @@ entity
 	"spawnflags" "1"
 	"targetname" "mg_bowling_ball_mr"
 	"texframeindex" "0"
-	connections
-	{
-		"OnAwakened" "mg_template_bowling_ball_mr,ForceSpawn,,3,-1"
-		"OnAwakened" "!self,Kill,,2.95,-1"
-	}
 	"origin" "32 96 56"
 	editor
 	{
@@ -20469,11 +20449,6 @@ entity
 	"spawnflags" "1"
 	"targetname" "mg_bowling_ball_r"
 	"texframeindex" "0"
-	connections
-	{
-		"OnAwakened" "mg_template_bowling_ball_r,ForceSpawn,,3,-1"
-		"OnAwakened" "!self,Kill,,2.95,-1"
-	}
 	"origin" "32 192 56"
 	editor
 	{
@@ -36695,9 +36670,9 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_bowling_pins,Break,,0,-1"
-		"OnPressed" "mg_bowling_ball*,Kill,,0,-1"
-		"OnPressed" "mg_template_bowling*,ForceSpawn,,0.1,-1"
+		"OnPressed" "mg_bowling_pinsBreak0-1"
+		"OnPressed" "mg_bowling_ball*Kill0-1"
+		"OnPressed" "mg_template_bowling*ForceSpawn0.1-1"
 	}
 	solid
 	{

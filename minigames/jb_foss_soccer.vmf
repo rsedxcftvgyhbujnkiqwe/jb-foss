@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "107"
+	"mapversion" "108"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "107"
+	"mapversion" "108"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -671,15 +671,21 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	group
+}
+entity
+{
+	"id" "5151"
+	"classname" "filter_activator_name"
+	"filtername" "mg_soccer_ball"
+	"Negated" "0"
+	"targetname" "mg_fil_soccerball"
+	"origin" "0 0 48"
+	editor
 	{
-		"id" "5029"
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
+		"color" "255 100 150"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -1268]"
 	}
 }
 entity
@@ -18154,22 +18160,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "5151"
-	"classname" "filter_activator_name"
-	"filtername" "mg_soccer_ball"
-	"Negated" "0"
-	"targetname" "mg_fil_soccerball"
-	"origin" "0 0 48"
-	editor
-	{
-		"color" "255 100 150"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -1268]"
 	}
 }
 cameras

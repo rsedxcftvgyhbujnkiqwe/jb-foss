@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "32"
+	"mapversion" "33"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "32"
+	"mapversion" "33"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -1375,6 +1375,124 @@ world
 		editor
 		{
 			"color" "0 132 185"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1289"
+		side
+		{
+			"id" "919"
+			"plane" "(-256 256 176) (256 256 176) (256 -288 176)"
+			vertices_plus
+			{
+				"v" "-256 256 176"
+				"v" "256 256 176"
+				"v" "256 -288 176"
+				"v" "-256 -288 176"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "920"
+			"plane" "(-256 -288 -80) (256 -288 -80) (256 256 -80)"
+			vertices_plus
+			{
+				"v" "-256 -288 -80"
+				"v" "256 -288 -80"
+				"v" "256 256 -80"
+				"v" "-256 256 -80"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "921"
+			"plane" "(-256 256 176) (-256 -288 176) (-256 -288 -80)"
+			vertices_plus
+			{
+				"v" "-256 256 176"
+				"v" "-256 -288 176"
+				"v" "-256 -288 -80"
+				"v" "-256 256 -80"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "922"
+			"plane" "(256 256 -80) (256 -288 -80) (256 -288 176)"
+			vertices_plus
+			{
+				"v" "256 256 -80"
+				"v" "256 -288 -80"
+				"v" "256 -288 176"
+				"v" "256 256 176"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "923"
+			"plane" "(256 256 176) (-256 256 176) (-256 256 -80)"
+			vertices_plus
+			{
+				"v" "256 256 176"
+				"v" "-256 256 176"
+				"v" "-256 256 -80"
+				"v" "256 256 -80"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "924"
+			"plane" "(256 -288 -80) (-256 -288 -80) (-256 -288 176)"
+			vertices_plus
+			{
+				"v" "256 -288 -80"
+				"v" "-256 -288 -80"
+				"v" "-256 -288 176"
+				"v" "256 -288 176"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 238 243"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3048,7 +3166,7 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_hardfalloff" "0"
-	"_light" "254 210 152 200"
+	"_light" "254 210 152 800"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"

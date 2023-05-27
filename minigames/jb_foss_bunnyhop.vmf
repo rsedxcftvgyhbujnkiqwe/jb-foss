@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "39"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "64"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "39"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -9368,8 +9368,8 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnTrigger" "!activator,AddOutput,targetname player,0.25,-1"
-		"OnTrigger" "!activator,AddOutput,targetname bhopper,0.24,-1"
+		"OnTrigger" "!activatorAddOutputtargetname player0.25-1"
+		"OnTrigger" "!activatorAddOutputtargetname bhopper0.24-1"
 	}
 	solid
 	{
@@ -12352,9 +12352,9 @@ entity
 	"id" "1053"
 	"classname" "logic_relay"
 	"angles" "0 180 0"
+	"origin" "32 -440 4"
 	"spawnflags" "0"
 	"targetname" "mg_bhop_tpdest_start"
-	"origin" "32 -440 4"
 	editor
 	{
 		"color" "100 150 255"
@@ -12367,9 +12367,10 @@ entity
 {
 	"id" "1080"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "8 360 84"
 	"spawnflags" "0"
 	"targetname" "mg_bhop_tpdest_chkpt"
-	"origin" "8 360 84"
 	editor
 	{
 		"color" "100 150 255"
@@ -13513,10 +13514,10 @@ entity
 			"plane" "(49 -256 -1.19209e-07) (49 -320 -1.19209e-07) (49.125 -320 -1.19209e-07)"
 			vertices_plus
 			{
-				"v" "49 -256 -1.19209e-07"
-				"v" "49 -320 -1.19209e-07"
-				"v" "49.125 -320 -1.19209e-07"
-				"v" "49.125 -256 -1.19209e-07"
+				"v" "49 -256 -0"
+				"v" "49 -320 -0"
+				"v" "49.125 -320 -0"
+				"v" "49.125 -256 -0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -13533,8 +13534,8 @@ entity
 			{
 				"v" "49.125 -256 16"
 				"v" "49 -256 16"
-				"v" "49 -256 -1.19209e-07"
-				"v" "49.125 -256 -1.19209e-07"
+				"v" "49 -256 -0"
+				"v" "49.125 -256 -0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 60] 0.25"
@@ -13549,8 +13550,8 @@ entity
 			"plane" "(49.125 -320 -1.19209e-07) (49 -320 -1.19209e-07) (49 -320 16)"
 			vertices_plus
 			{
-				"v" "49.125 -320 -1.19209e-07"
-				"v" "49 -320 -1.19209e-07"
+				"v" "49.125 -320 -0"
+				"v" "49 -320 -0"
 				"v" "49 -320 16"
 				"v" "49.125 -320 16"
 			}
@@ -13569,8 +13570,8 @@ entity
 			{
 				"v" "49.125 -320 16"
 				"v" "49.125 -256 16"
-				"v" "49.125 -256 -1.19209e-07"
-				"v" "49.125 -320 -1.19209e-07"
+				"v" "49.125 -256 -0"
+				"v" "49.125 -320 -0"
 			}
 			"material" "CONCRETE/COMPUTERWALL004"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -13585,8 +13586,8 @@ entity
 			"plane" "(49 -320 -1.19209e-07) (49 -256 -1.19209e-07) (49 -256 16)"
 			vertices_plus
 			{
-				"v" "49 -320 -1.19209e-07"
-				"v" "49 -256 -1.19209e-07"
+				"v" "49 -320 -0"
+				"v" "49 -256 -0"
 				"v" "49 -256 16"
 				"v" "49 -320 16"
 			}
@@ -13728,6 +13729,22 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -15768]"
+	}
+}
+entity
+{
+	"id" "1443"
+	"classname" "filter_activator_name"
+	"filtername" "bhopper"
+	"Negated" "0"
+	"targetname" "mg_fil_bhopper"
+	"origin" "0 -384 64"
+	editor
+	{
+		"color" "255 100 150"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

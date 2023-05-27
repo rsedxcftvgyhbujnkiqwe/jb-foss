@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8862"
-	"mapversion" "135"
+	"editorbuild" "8864"
+	"mapversion" "137"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "135"
+	"mapversion" "137"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -1693,125 +1693,122 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "1186"
+		side
 		{
-			"id" "1186"
-			side
+			"id" "886"
+			"plane" "(-368 303 0) (368 303 0) (368 304 0)"
+			vertices_plus
 			{
-				"id" "886"
-				"plane" "(-368 303 0) (368 303 0) (368 304 0)"
-				vertices_plus
-				{
-					"v" "-368 303 0"
-					"v" "368 303 0"
-					"v" "368 304 0"
-					"v" "-368 304 0"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-368 303 0"
+				"v" "368 303 0"
+				"v" "368 304 0"
+				"v" "-368 304 0"
 			}
-			side
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "885"
+			"plane" "(368 303 0) (-368 303 0) (-368 303 256)"
+			vertices_plus
 			{
-				"id" "885"
-				"plane" "(368 303 0) (-368 303 0) (-368 303 256)"
-				vertices_plus
-				{
-					"v" "368 303 0"
-					"v" "-368 303 0"
-					"v" "-368 303 256"
-					"v" "368 303 256"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "368 303 0"
+				"v" "-368 303 0"
+				"v" "-368 303 256"
+				"v" "368 303 256"
 			}
-			side
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "884"
+			"plane" "(-368 304 0) (368 304 0) (368 304 256)"
+			vertices_plus
 			{
-				"id" "884"
-				"plane" "(-368 304 0) (368 304 0) (368 304 256)"
-				vertices_plus
-				{
-					"v" "-368 304 0"
-					"v" "368 304 0"
-					"v" "368 304 256"
-					"v" "-368 304 256"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-368 304 0"
+				"v" "368 304 0"
+				"v" "368 304 256"
+				"v" "-368 304 256"
 			}
-			side
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "883"
+			"plane" "(-368 303 0) (-368 304 0) (-368 304 256)"
+			vertices_plus
 			{
-				"id" "883"
-				"plane" "(-368 303 0) (-368 304 0) (-368 304 256)"
-				vertices_plus
-				{
-					"v" "-368 303 0"
-					"v" "-368 304 0"
-					"v" "-368 304 256"
-					"v" "-368 303 256"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-368 303 0"
+				"v" "-368 304 0"
+				"v" "-368 304 256"
+				"v" "-368 303 256"
 			}
-			side
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "882"
+			"plane" "(368 304 0) (368 303 0) (368 303 256)"
+			vertices_plus
 			{
-				"id" "882"
-				"plane" "(368 304 0) (368 303 0) (368 303 256)"
-				vertices_plus
-				{
-					"v" "368 304 0"
-					"v" "368 303 0"
-					"v" "368 303 256"
-					"v" "368 304 256"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "368 304 0"
+				"v" "368 303 0"
+				"v" "368 303 256"
+				"v" "368 304 256"
 			}
-			side
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "881"
+			"plane" "(368 303 256) (-368 303 256) (-368 304 256)"
+			vertices_plus
 			{
-				"id" "881"
-				"plane" "(368 303 256) (-368 303 256) (-368 304 256)"
-				vertices_plus
-				{
-					"v" "368 303 256"
-					"v" "-368 303 256"
-					"v" "-368 304 256"
-					"v" "368 304 256"
-				}
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "368 303 256"
+				"v" "-368 303 256"
+				"v" "-368 304 256"
+				"v" "368 304 256"
 			}
-			editor
-			{
-				"color" "0 179 204"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 179 204"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	solid
@@ -3255,7 +3252,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "mg_disco_buttonlogic_counter,SetValue,3,0,-1"
+		"OnPressed" "mg_disco_buttonlogic_counterSetValue30-1"
 	}
 	solid
 	{
@@ -3405,11 +3402,11 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jeopardy_red*,Unlock,,0,-1"
-		"OnPressed" "!self,Lock,,0,-1"
-		"OnPressed" "!self,Color,255 0 0,0,-1"
-		"OnPressed" "mg_jeopardy_red*,Color,255 255 255,0,-1"
-		"OnPressed" "mg_jeopardy_music,PlaySound,,0,-1"
+		"OnPressed" "mg_jeopardy_red*Unlock0-1"
+		"OnPressed" "!selfLock0-1"
+		"OnPressed" "!selfColor255 0 00-1"
+		"OnPressed" "mg_jeopardy_red*Color255 255 2550-1"
+		"OnPressed" "mg_jeopardy_musicPlaySound0-1"
 	}
 	solid
 	{
@@ -3559,7 +3556,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "mg_disco_buttonlogic_counter,SetValue,2,0,-1"
+		"OnPressed" "mg_disco_buttonlogic_counterSetValue20-1"
 	}
 	solid
 	{
@@ -3709,12 +3706,12 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jeopardy_red*,Color,255 255 255,0,-1"
-		"OnPressed" "mg_jeopardy_red*,Lock,,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Color,0 255 0,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Unlock,,0,-1"
-		"OnPressed" "!self,Color,255 0 0,0.05,-1"
-		"OnPressed" "mg_jeopardy_music,StopSound,,0,-1"
+		"OnPressed" "mg_jeopardy_red*Color255 255 2550-1"
+		"OnPressed" "mg_jeopardy_red*Lock0-1"
+		"OnPressed" "mg_jeopardy_blu_hostColor0 255 00-1"
+		"OnPressed" "mg_jeopardy_blu_hostUnlock0-1"
+		"OnPressed" "!selfColor255 0 00.05-1"
+		"OnPressed" "mg_jeopardy_musicStopSound0-1"
 	}
 	solid
 	{
@@ -3982,7 +3979,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "mg_disco_buttonlogic_counter,SetValue,16,0,-1"
+		"OnPressed" "mg_disco_buttonlogic_counterSetValue160-1"
 	}
 	solid
 	{
@@ -4132,7 +4129,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "mg_disco_buttonlogic_counter,SetValue,1,0,-1"
+		"OnPressed" "mg_disco_buttonlogic_counterSetValue10-1"
 	}
 	solid
 	{
@@ -4866,8 +4863,8 @@ entity
 	"targetname" "mg_disco_buttonlogic_counter"
 	connections
 	{
-		"OutValue" "mg_disco_buttonlogic_case,InValue,,0.03,1"
-		"OutValue" "mg_disco_buttonlogic_counter_relay,Trigger,,0.01,1"
+		"OutValue" "mg_disco_buttonlogic_caseInValue0.031"
+		"OutValue" "mg_disco_buttonlogic_counter_relayTrigger0.011"
 	}
 	"origin" "216 -8 61.689"
 	editor
@@ -4900,7 +4897,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "mg_disco_buttonlogic_counter,SetValue,4,0,-1"
+		"OnPressed" "mg_disco_buttonlogic_counterSetValue40-1"
 	}
 	solid
 	{
@@ -5032,18 +5029,19 @@ entity
 {
 	"id" "3993"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "216 16 85.69"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "mg_disco_buttonlogic_counter_relay"
 	connections
 	{
-		"OnTrigger" "mg_disco_buttonlogic_counter,AddOutput,OutValue mg_disco_buttonlogic_case:InValue::0.03:1,0.1,-1"
-		"OnTrigger" "mg_disco_buttonlogic_counter,AddOutput,OutValue mg_disco_buttonlogic_counter_relay:Trigger::0.01:1,0.1,-1"
-		"OnTrigger" "mg_disco_button_*,Unlock,,0,-1"
-		"OnTrigger" "mg_disco_button_*,Color,255 255 255,0,-1"
-		"OnTrigger" "mg_disco_ambient_generic,StopSound,,0,-1"
+		"OnTrigger" "mg_disco_buttonlogic_counterAddOutputOutValue mg_disco_buttonlogic_case:InValue::0.03:10.1-1"
+		"OnTrigger" "mg_disco_buttonlogic_counterAddOutputOutValue mg_disco_buttonlogic_counter_relay:Trigger::0.01:10.1-1"
+		"OnTrigger" "mg_disco_button_*Unlock0-1"
+		"OnTrigger" "mg_disco_button_*Color255 255 2550-1"
+		"OnTrigger" "mg_disco_ambient_genericStopSound0-1"
 	}
-	"origin" "216 16 85.689"
 	editor
 	{
 		"color" "100 150 255"
@@ -5262,24 +5260,24 @@ entity
 }
 entity
 {
-	"id" "4805"
+	"id" "5083"
 	"classname" "func_detail"
 	solid
 	{
-		"id" "3474"
+		"id" "5084"
 		side
 		{
-			"id" "2365"
-			"plane" "(208 144 48) (224 144 48) (224 -144 48)"
+			"id" "2489"
+			"plane" "(208 144 49) (224 144 49) (224 -144 49)"
 			vertices_plus
 			{
-				"v" "208 144 48"
-				"v" "224 144 48"
-				"v" "224 -144 48"
-				"v" "208 -144 48"
+				"v" "208 144 49"
+				"v" "224 144 49"
+				"v" "224 -144 49"
+				"v" "208 -144 49"
 			}
 			"material" "PL_BARNBLITZ/WOODWALL_YELLOWWORN002B"
-			"uaxis" "[1 0 0 -64] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5287,17 +5285,17 @@ entity
 		}
 		side
 		{
-			"id" "2364"
-			"plane" "(208 -144 0) (224 -144 0) (224 144 0)"
+			"id" "2488"
+			"plane" "(208 -144 1) (224 -144 1) (224 144 1)"
 			vertices_plus
 			{
-				"v" "208 -144 0"
-				"v" "224 -144 0"
-				"v" "224 144 0"
-				"v" "208 144 0"
+				"v" "208 -144 1"
+				"v" "224 -144 1"
+				"v" "224 144 1"
+				"v" "208 144 1"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5305,14 +5303,14 @@ entity
 		}
 		side
 		{
-			"id" "2363"
-			"plane" "(208 144 48) (208 -144 48) (208 -144 0)"
+			"id" "2487"
+			"plane" "(208 144 49) (208 -144 49) (208 -144 1)"
 			vertices_plus
 			{
-				"v" "208 144 48"
-				"v" "208 -144 48"
-				"v" "208 -144 0"
-				"v" "208 144 0"
+				"v" "208 144 49"
+				"v" "208 -144 49"
+				"v" "208 -144 1"
+				"v" "208 144 1"
 			}
 			"material" "PL_BARNBLITZ/WOODWALL_YELLOWWORN002B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -5323,14 +5321,14 @@ entity
 		}
 		side
 		{
-			"id" "2362"
-			"plane" "(224 144 0) (224 -144 0) (224 -144 48)"
+			"id" "2486"
+			"plane" "(224 144 1) (224 -144 1) (224 -144 49)"
 			vertices_plus
 			{
-				"v" "224 144 0"
-				"v" "224 -144 0"
-				"v" "224 -144 48"
-				"v" "224 144 48"
+				"v" "224 144 1"
+				"v" "224 -144 1"
+				"v" "224 -144 49"
+				"v" "224 144 49"
 			}
 			"material" "PL_BARNBLITZ/WOODWALL_YELLOWWORN002B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -5341,17 +5339,17 @@ entity
 		}
 		side
 		{
-			"id" "2361"
-			"plane" "(224 144 48) (208 144 48) (208 144 0)"
+			"id" "2485"
+			"plane" "(224 144 49) (208 144 49) (208 144 1)"
 			vertices_plus
 			{
-				"v" "224 144 48"
-				"v" "208 144 48"
-				"v" "208 144 0"
-				"v" "224 144 0"
+				"v" "224 144 49"
+				"v" "208 144 49"
+				"v" "208 144 1"
+				"v" "224 144 1"
 			}
 			"material" "PL_BARNBLITZ/WOODWALL_YELLOWWORN002B"
-			"uaxis" "[1 0 0 -64] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5359,17 +5357,17 @@ entity
 		}
 		side
 		{
-			"id" "2360"
-			"plane" "(224 -144 0) (208 -144 0) (208 -144 48)"
+			"id" "2484"
+			"plane" "(224 -144 1) (208 -144 1) (208 -144 49)"
 			vertices_plus
 			{
-				"v" "224 -144 0"
-				"v" "208 -144 0"
-				"v" "208 -144 48"
-				"v" "224 -144 48"
+				"v" "224 -144 1"
+				"v" "208 -144 1"
+				"v" "208 -144 49"
+				"v" "224 -144 49"
 			}
 			"material" "PL_BARNBLITZ/WOODWALL_YELLOWWORN002B"
-			"uaxis" "[1 0 0 -64] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5377,14 +5375,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 175 0"
+			"color" "152 201 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 175 0"
+		"color" "152 201 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -5402,24 +5400,24 @@ entity
 	"targetname" "mg_disco_buttonlogic_case"
 	connections
 	{
-		"OnCase01" "mg_disco_button_1,Lock,,0,-1"
-		"OnCase02" "mg_disco_button_2,Lock,,0,-1"
-		"OnCase03" "mg_disco_button_3,Lock,,0,-1"
-		"OnCase04" "mg_disco_button_4,Lock,,0,-1"
-		"OnCase16" "mg_disco_button_stop,Lock,,0,-1"
-		"OnCase04" "mg_disco_button_4,Color,255 0 0,0,-1"
-		"OnCase03" "mg_disco_button_3,Color,255 0 0,0,-1"
-		"OnCase02" "mg_disco_button_2,Color,255 0 0 ,0,-1"
-		"OnCase01" "mg_disco_button_1,Color,255 0 0 ,0,-1"
-		"OnCase04" "mg_disco_ambient_generic,AddOutput,message ui/gamestartup23.mp3,0.02,-1"
-		"OnCase03" "mg_disco_ambient_generic,AddOutput,message ui/gamestartup21.mp3,0.02,-1"
-		"OnCase02" "mg_disco_ambient_generic,AddOutput,message ui/gamestartup8.mp3,0.02,-1"
-		"OnCase01" "mg_disco_ambient_generic,AddOutput,message ui/gamestartup3.mp3,0.02,-1"
-		"OnCase04" "mg_disco_ambient_generic,PlaySound,,0.04,-1"
-		"OnCase03" "mg_disco_ambient_generic,PlaySound,,0.04,-1"
-		"OnCase02" "mg_disco_ambient_generic,PlaySound,,0.04,-1"
-		"OnCase01" "mg_disco_ambient_generic,PlaySound,,0.04,-1"
-		"OnCase16" "mg_disco_floor_timer,CancelPending,,0,-1"
+		"OnCase01" "mg_disco_button_1Lock0-1"
+		"OnCase02" "mg_disco_button_2Lock0-1"
+		"OnCase03" "mg_disco_button_3Lock0-1"
+		"OnCase04" "mg_disco_button_4Lock0-1"
+		"OnCase16" "mg_disco_button_stopLock0-1"
+		"OnCase04" "mg_disco_button_4Color255 0 00-1"
+		"OnCase03" "mg_disco_button_3Color255 0 00-1"
+		"OnCase02" "mg_disco_button_2Color255 0 0 0-1"
+		"OnCase01" "mg_disco_button_1Color255 0 0 0-1"
+		"OnCase04" "mg_disco_ambient_genericAddOutputmessage ui/gamestartup23.mp30.02-1"
+		"OnCase03" "mg_disco_ambient_genericAddOutputmessage ui/gamestartup21.mp30.02-1"
+		"OnCase02" "mg_disco_ambient_genericAddOutputmessage ui/gamestartup8.mp30.02-1"
+		"OnCase01" "mg_disco_ambient_genericAddOutputmessage ui/gamestartup3.mp30.02-1"
+		"OnCase04" "mg_disco_ambient_genericPlaySound0.04-1"
+		"OnCase03" "mg_disco_ambient_genericPlaySound0.04-1"
+		"OnCase02" "mg_disco_ambient_genericPlaySound0.04-1"
+		"OnCase01" "mg_disco_ambient_genericPlaySound0.04-1"
+		"OnCase16" "mg_disco_floor_timerCancelPending0-1"
 	}
 	"origin" "216 8 61.689"
 	editor
@@ -5465,14 +5463,15 @@ entity
 {
 	"id" "4595"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "216 -24 85.69"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "mg_disco_floor_timer_loop"
 	connections
 	{
-		"OnTrigger" "mg_disco_floor_timer,Trigger,,0,-1"
+		"OnTrigger" "mg_disco_floor_timerTrigger0-1"
 	}
-	"origin" "216 -24 85.689"
 	editor
 	{
 		"color" "100 150 255"
@@ -5547,20 +5546,21 @@ entity
 {
 	"id" "4593"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"origin" "216 -8 85.69"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "mg_disco_floor_timer"
 	connections
 	{
-		"OnTrigger" "mg_disco_floor,Color,255 0 0,0,-1"
-		"OnTrigger" "mg_disco_floor,Color,0 255 0,0.1,-1"
-		"OnTrigger" "mg_disco_floor,Color,255 88 0,0.2,-1"
-		"OnTrigger" "mg_disco_floor,Color,0 0 255,0.3,-1"
-		"OnTrigger" "mg_disco_floor,Color,255 255 0,0.39,-1"
-		"OnTrigger" "mg_disco_floor,Color,88 0 255,0.48,-1"
-		"OnTrigger" "mg_disco_floor_timer_loop,Trigger,,0.48,-1"
+		"OnTrigger" "mg_disco_floorColor255 0 00-1"
+		"OnTrigger" "mg_disco_floorColor0 255 00.1-1"
+		"OnTrigger" "mg_disco_floorColor255 88 00.2-1"
+		"OnTrigger" "mg_disco_floorColor0 0 2550.3-1"
+		"OnTrigger" "mg_disco_floorColor255 255 00.39-1"
+		"OnTrigger" "mg_disco_floorColor88 0 2550.48-1"
+		"OnTrigger" "mg_disco_floor_timer_loopTrigger0.48-1"
 	}
-	"origin" "216 -8 85.689"
 	editor
 	{
 		"color" "100 150 255"
@@ -10311,7 +10311,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_theater_door_ml,Toggle,,0,-1"
+		"OnPressed" "mg_theater_door_mlToggle0-1"
 	}
 	solid
 	{
@@ -10460,7 +10460,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_theater_door_r,Toggle,,0,-1"
+		"OnPressed" "mg_theater_door_rToggle0-1"
 	}
 	solid
 	{
@@ -10609,7 +10609,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_theater_door_mr,Toggle,,0,-1"
+		"OnPressed" "mg_theater_door_mrToggle0-1"
 	}
 	solid
 	{
@@ -10758,7 +10758,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_theater_door_l,Toggle,,0,-1"
+		"OnPressed" "mg_theater_door_lToggle0-1"
 	}
 	solid
 	{
@@ -11282,7 +11282,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_diner_winnerdoor,Toggle,,0,-1"
+		"OnPressed" "mg_diner_winnerdoorToggle0-1"
 	}
 	solid
 	{
@@ -11555,12 +11555,12 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jeopardy_red*,Color,255 255 255,0,-1"
-		"OnPressed" "mg_jeopardy_red*,Lock,,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Color,0 255 0,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Unlock,,0,-1"
-		"OnPressed" "!self,Color,255 0 0,0.05,-1"
-		"OnPressed" "mg_jeopardy_music,StopSound,,0,-1"
+		"OnPressed" "mg_jeopardy_red*Color255 255 2550-1"
+		"OnPressed" "mg_jeopardy_red*Lock0-1"
+		"OnPressed" "mg_jeopardy_blu_hostColor0 255 00-1"
+		"OnPressed" "mg_jeopardy_blu_hostUnlock0-1"
+		"OnPressed" "!selfColor255 0 00.05-1"
+		"OnPressed" "mg_jeopardy_musicStopSound0-1"
 	}
 	solid
 	{
@@ -11828,12 +11828,12 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnPressed" "mg_jeopardy_red*,Color,255 255 255,0,-1"
-		"OnPressed" "mg_jeopardy_red*,Lock,,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Unlock,,0,-1"
-		"OnPressed" "mg_jeopardy_blu_host,Color,0 255 0,0,-1"
-		"OnPressed" "!self,Color,255 0 0,0.05,-1"
-		"OnPressed" "mg_jeopardy_music,StopSound,,0,-1"
+		"OnPressed" "mg_jeopardy_red*Color255 255 2550-1"
+		"OnPressed" "mg_jeopardy_red*Lock0-1"
+		"OnPressed" "mg_jeopardy_blu_hostUnlock0-1"
+		"OnPressed" "mg_jeopardy_blu_hostColor0 255 00-1"
+		"OnPressed" "!selfColor255 0 00.05-1"
+		"OnPressed" "mg_jeopardy_musicStopSound0-1"
 	}
 	solid
 	{
@@ -13185,8 +13185,8 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "mg_social_minigames_door,Open,,0,-1"
-		"OnEndTouchAll" "mg_social_minigames_door,Close,,0,-1"
+		"OnStartTouchAll" "mg_social_minigames_doorOpen0-1"
+		"OnEndTouchAll" "mg_social_minigames_doorClose0-1"
 	}
 	solid
 	{
@@ -13314,6 +13314,210 @@ entity
 		"logicalpos" "[0 9500]"
 	}
 }
+entity
+{
+	"id" "5039"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_hardfalloff" "0"
+	"_light" "254 210 152 1600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"defaultstyle" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "192 -192 178"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "5046"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1.0"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_lights/light_fluorescent_basement.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "192 -192 257"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "5050"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_hardfalloff" "0"
+	"_light" "254 210 152 1600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"defaultstyle" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "192 192 178"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "5057"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1.0"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_lights/light_fluorescent_basement.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "192 192 257"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "5061"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_hardfalloff" "0"
+	"_light" "254 210 152 1600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"defaultstyle" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-192 192 178"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "5068"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1.0"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_lights/light_fluorescent_basement.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-192 192 257"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "5072"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_hardfalloff" "0"
+	"_light" "254 210 152 1600"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"defaultstyle" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-192 -192 178"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "5079"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1.0"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_lights/light_fluorescent_basement.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-192 -192 257"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
 cameras
 {
 	"activecamera" "-1"
@@ -13321,8 +13525,4 @@ cameras
 cordons
 {
 	"active" "0"
-}
-quickhide
-{
-	"count" "1"
 }
