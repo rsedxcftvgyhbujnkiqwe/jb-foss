@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "96"
+	"mapversion" "100"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "96"
+	"mapversion" "100"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -441,13 +441,13 @@ world
 		side
 		{
 			"id" "890"
-			"plane" "(-192 -432 48) (48 -432 48) (48 -416 48)"
+			"plane" "(-176 -432 48) (48 -432 48) (48 -416 48)"
 			vertices_plus
 			{
-				"v" "-192 -432 48"
+				"v" "-176 -432 48"
 				"v" "48 -432 48"
 				"v" "48 -416 48"
-				"v" "-192 -416 48"
+				"v" "-176 -416 48"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -459,13 +459,13 @@ world
 		side
 		{
 			"id" "889"
-			"plane" "(-192 -416 112) (48 -416 112) (48 -432 112)"
+			"plane" "(-176 -416 112) (48 -416 112) (48 -432 112)"
 			vertices_plus
 			{
-				"v" "-192 -416 112"
+				"v" "-176 -416 112"
 				"v" "48 -416 112"
 				"v" "48 -432 112"
-				"v" "-192 -432 112"
+				"v" "-176 -432 112"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -477,13 +477,13 @@ world
 		side
 		{
 			"id" "888"
-			"plane" "(-192 -416 48) (-192 -416 112) (-192 -432 112)"
+			"plane" "(-176 -416 48) (-176 -416 112) (-176 -432 112)"
 			vertices_plus
 			{
-				"v" "-192 -416 48"
-				"v" "-192 -416 112"
-				"v" "-192 -432 112"
-				"v" "-192 -432 48"
+				"v" "-176 -416 48"
+				"v" "-176 -416 112"
+				"v" "-176 -432 112"
+				"v" "-176 -432 48"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -513,17 +513,17 @@ world
 		side
 		{
 			"id" "886"
-			"plane" "(-192 -432 48) (-192 -432 112) (48 -432 112)"
+			"plane" "(-176 -432 48) (-176 -432 112) (48 -432 112)"
 			vertices_plus
 			{
-				"v" "-192 -432 48"
-				"v" "-192 -432 112"
+				"v" "-176 -432 48"
+				"v" "-176 -432 112"
 				"v" "48 -432 112"
 				"v" "48 -432 48"
 			}
-			"material" "GLASS/GLASSWINDOW002A"
-			"uaxis" "[1 0 0 -75] 1.0625"
-			"vaxis" "[0 0 -1 186] 0.3438"
+			"material" "GLASS/GLASSWINDOW001A_90"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -531,17 +531,17 @@ world
 		side
 		{
 			"id" "885"
-			"plane" "(48 -416 48) (48 -416 112) (-192 -416 112)"
+			"plane" "(48 -416 48) (48 -416 112) (-176 -416 112)"
 			vertices_plus
 			{
 				"v" "48 -416 48"
 				"v" "48 -416 112"
-				"v" "-192 -416 112"
-				"v" "-192 -416 48"
+				"v" "-176 -416 112"
+				"v" "-176 -416 48"
 			}
-			"material" "GLASS/GLASSWINDOW002A"
-			"uaxis" "[1 0 0 -75] 1.0625"
-			"vaxis" "[0 0 -1 186] 0.3438"
+			"material" "GLASS/GLASSWINDOW001A_90"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -559,13 +559,13 @@ world
 		side
 		{
 			"id" "896"
-			"plane" "(-192 -432 0) (-192 -416 0) (-192 -416 48)"
+			"plane" "(-176 -432 0) (-176 -416 0) (-176 -416 48)"
 			vertices_plus
 			{
-				"v" "-192 -432 0"
-				"v" "-192 -416 0"
-				"v" "-192 -416 48"
-				"v" "-192 -432 48"
+				"v" "-176 -432 0"
+				"v" "-176 -416 0"
+				"v" "-176 -416 48"
+				"v" "-176 -432 48"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -595,12 +595,12 @@ world
 		side
 		{
 			"id" "894"
-			"plane" "(48 -432 0) (-192 -432 0) (-192 -432 48)"
+			"plane" "(48 -432 0) (-176 -432 0) (-176 -432 48)"
 			vertices_plus
 			{
 				"v" "48 -432 0"
-				"v" "-192 -432 0"
-				"v" "-192 -432 48"
+				"v" "-176 -432 0"
+				"v" "-176 -432 48"
 				"v" "48 -432 48"
 			}
 			"material" "CONCRETE/COMPUTERWALL005C"
@@ -613,13 +613,13 @@ world
 		side
 		{
 			"id" "893"
-			"plane" "(-192 -416 0) (48 -416 0) (48 -416 48)"
+			"plane" "(-176 -416 0) (48 -416 0) (48 -416 48)"
 			vertices_plus
 			{
-				"v" "-192 -416 0"
+				"v" "-176 -416 0"
 				"v" "48 -416 0"
 				"v" "48 -416 48"
-				"v" "-192 -416 48"
+				"v" "-176 -416 48"
 			}
 			"material" "CONCRETE/COMPUTERWALL003C"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -631,13 +631,13 @@ world
 		side
 		{
 			"id" "892"
-			"plane" "(-192 -432 0) (48 -432 0) (48 -416 0)"
+			"plane" "(-176 -432 0) (48 -432 0) (48 -416 0)"
 			vertices_plus
 			{
-				"v" "-192 -432 0"
+				"v" "-176 -432 0"
 				"v" "48 -432 0"
 				"v" "48 -416 0"
-				"v" "-192 -416 0"
+				"v" "-176 -416 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -649,13 +649,13 @@ world
 		side
 		{
 			"id" "891"
-			"plane" "(-192 -416 48) (48 -416 48) (48 -432 48)"
+			"plane" "(-176 -416 48) (48 -416 48) (48 -432 48)"
 			vertices_plus
 			{
-				"v" "-192 -416 48"
+				"v" "-176 -416 48"
 				"v" "48 -416 48"
 				"v" "48 -432 48"
-				"v" "-192 -432 48"
+				"v" "-176 -432 48"
 			}
 			"material" "CONCRETE/COMPUTERWALL007"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -2211,12 +2211,12 @@ world
 		side
 		{
 			"id" "3108"
-			"plane" "(-256 -416 112) (-192 -416 112) (-192 -432 112)"
+			"plane" "(-256 -416 112) (-176 -416 112) (-176 -432 112)"
 			vertices_plus
 			{
 				"v" "-256 -416 112"
-				"v" "-192 -416 112"
-				"v" "-192 -432 112"
+				"v" "-176 -416 112"
+				"v" "-176 -432 112"
 				"v" "-256 -432 112"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
@@ -2229,12 +2229,12 @@ world
 		side
 		{
 			"id" "3109"
-			"plane" "(-256 -432 0) (-192 -432 0) (-192 -416 0)"
+			"plane" "(-256 -432 0) (-176 -432 0) (-176 -416 0)"
 			vertices_plus
 			{
 				"v" "-256 -432 0"
-				"v" "-192 -432 0"
-				"v" "-192 -416 0"
+				"v" "-176 -432 0"
+				"v" "-176 -416 0"
 				"v" "-256 -416 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
@@ -2265,13 +2265,13 @@ world
 		side
 		{
 			"id" "3111"
-			"plane" "(-192 -416 0) (-192 -432 0) (-192 -432 112)"
+			"plane" "(-176 -416 0) (-176 -432 0) (-176 -432 112)"
 			vertices_plus
 			{
-				"v" "-192 -416 0"
-				"v" "-192 -432 0"
-				"v" "-192 -432 112"
-				"v" "-192 -416 112"
+				"v" "-176 -416 0"
+				"v" "-176 -432 0"
+				"v" "-176 -432 112"
+				"v" "-176 -416 112"
 			}
 			"material" "CONCRETE/COMPUTERWALL005C"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -2283,13 +2283,13 @@ world
 		side
 		{
 			"id" "3112"
-			"plane" "(-192 -416 112) (-256 -416 112) (-256 -416 0)"
+			"plane" "(-176 -416 112) (-256 -416 112) (-256 -416 0)"
 			vertices_plus
 			{
-				"v" "-192 -416 112"
+				"v" "-176 -416 112"
 				"v" "-256 -416 112"
 				"v" "-256 -416 0"
-				"v" "-192 -416 0"
+				"v" "-176 -416 0"
 			}
 			"material" "CONCRETE/COMPUTERWALL003C"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -2301,13 +2301,13 @@ world
 		side
 		{
 			"id" "3113"
-			"plane" "(-192 -432 0) (-256 -432 0) (-256 -432 112)"
+			"plane" "(-176 -432 0) (-256 -432 0) (-256 -432 112)"
 			vertices_plus
 			{
-				"v" "-192 -432 0"
+				"v" "-176 -432 0"
 				"v" "-256 -432 0"
 				"v" "-256 -432 112"
-				"v" "-192 -432 112"
+				"v" "-176 -432 112"
 			}
 			"material" "CONCRETE/COMPUTERWALL005C"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -2698,7 +2698,7 @@ entity
 	"targetname" "mg_templetumble_pole_2"
 	connections
 	{
-		"OnFullyClosed" "mg_templetumble_pole_2Open4-1"
+		"OnFullyOpen" "!selfClose4-1"
 	}
 	solid
 	{
@@ -3414,7 +3414,7 @@ entity
 	"id" "269"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
-	"origin" "32 -440 160"
+	"origin" "16 -440 96"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "mg_templetumble_relay"
@@ -12686,7 +12686,7 @@ entity
 	"targetname" "mg_templetumble_pole_5"
 	connections
 	{
-		"OnFullyClosed" "mg_templetumble_pole_5Open4-1"
+		"OnFullyOpen" "!selfClose4-1"
 	}
 	solid
 	{
@@ -12834,7 +12834,7 @@ entity
 	"targetname" "mg_templetumble_pole_4"
 	connections
 	{
-		"OnFullyClosed" "mg_templetumble_pole_4Open4-1"
+		"OnFullyOpen" "!selfClose4-1"
 	}
 	solid
 	{
@@ -12975,7 +12975,7 @@ entity
 	{
 		"OnTimer" "mg_templetumble_position_casePickRandomShuffle0-1"
 	}
-	"origin" "64 -440 192"
+	"origin" "48 -440 128"
 	editor
 	{
 		"color" "100 255 100"
@@ -12997,7 +12997,7 @@ entity
 	{
 		"OnTimer" "mg_templetumble_relayTrigger0-1"
 	}
-	"origin" "32 -440 192"
+	"origin" "16 -440 128"
 	editor
 	{
 		"color" "100 255 100"
@@ -13019,7 +13019,7 @@ entity
 	{
 		"OnTimer" "mg_templetumble_relayTrigger0-1"
 	}
-	"origin" "0 -440 192"
+	"origin" "-16 -440 128"
 	editor
 	{
 		"color" "100 255 100"
@@ -13402,13 +13402,13 @@ entity
 	"targetname" "mg_templetumble_polecase"
 	connections
 	{
-		"OnCase01" "mg_templetumble_pole_4Close0-1"
-		"OnCase04" "mg_templetumble_pole_2Close0-1"
-		"OnCase05" "mg_templetumble_pole_1Close0-1"
-		"OnCase03" "mg_templetumble_pole_3Close0-1"
-		"OnCase02" "mg_templetumble_pole_5Close0-1"
+		"OnCase01" "mg_templetumble_pole_4Open0-1"
+		"OnCase04" "mg_templetumble_pole_2Open0-1"
+		"OnCase05" "mg_templetumble_pole_1Open0-1"
+		"OnCase03" "mg_templetumble_pole_3Open0-1"
+		"OnCase02" "mg_templetumble_pole_5Open0-1"
 	}
-	"origin" "0 -440 160"
+	"origin" "-16 -440 96"
 	editor
 	{
 		"color" "100 255 100"
@@ -13437,7 +13437,7 @@ entity
 	"targetname" "mg_templetumble_pole_3"
 	connections
 	{
-		"OnFullyClosed" "mg_templetumble_pole_3Open4-1"
+		"OnFullyOpen" "!selfClose4-1"
 	}
 	solid
 	{
@@ -13578,7 +13578,7 @@ entity
 		"OnCase04" "mg_templetumble_entitymaker4ForceSpawn0-1"
 		"OnCase05" "mg_templetumble_entitymaker5ForceSpawn0-1"
 	}
-	"origin" "64 -440 160"
+	"origin" "48 -440 96"
 	editor
 	{
 		"color" "100 255 100"
@@ -13631,6 +13631,9 @@ entity
 		"OnTrue" "mg_templetumble_timerKill14.9-1"
 		"OnTrue" "mg_templetumble_timerEnable0-1"
 		"OnTrue" "mg_templetumble_position_casePickRandomShuffle0-1"
+		"OnFalse" "mg_templetumble_polecaseKill0-1"
+		"OnTrue" "mg_template_templetumble_logicForceSpawn0-1"
+		"OnFalse" "mg_templetumble_boulderBreak0-1"
 	}
 	"origin" "16 -440 64"
 	editor
@@ -13808,7 +13811,7 @@ entity
 	"targetname" "mg_templetumble_pole_1"
 	connections
 	{
-		"OnFullyClosed" "mg_templetumble_pole_1Open4-1"
+		"OnFullyOpen" "!selfClose4-1"
 	}
 	solid
 	{
@@ -14151,6 +14154,25 @@ entity
 	editor
 	{
 		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3754"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "mg_template_templetumble_logic"
+	"Template01" "mg_templetumble_time*"
+	"Template02" "mg_templetumble_position_case"
+	"Template03" "mg_templetumble_relay"
+	"Template04" "mg_templetumble_polecase"
+	"origin" "-16 -440 64"
+	editor
+	{
+		"color" "100 150 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"

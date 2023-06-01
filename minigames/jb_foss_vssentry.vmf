@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "46"
+	"mapversion" "47"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "46"
+	"mapversion" "47"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -2110,6 +2110,8 @@ entity
 		"OnTrue" "mg_vssentry_rdoorEnable0-1"
 		"OnTrue" "mg_vssentry_counterSetValue00-1"
 		"OnFalse" "mg_vssentry_sentry*RemoveHealth3000-1"
+		"OnFalse" "mg_vssentry_main_buttonColor0 255 00-1"
+		"OnTrue" "mg_vssentry_main_buttonColor255 0 00-1"
 	}
 	"origin" "96 -200 96"
 	editor

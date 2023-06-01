@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "106"
+	"mapversion" "109"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "106"
+	"mapversion" "109"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -1193,7 +1193,7 @@ world
 				"v" "-192 -240 32"
 				"v" "-128 -240 32"
 			}
-			"material" "GLASS/GLASSWINDOW017A"
+			"material" "GLASS/GLASSWINDOW001A_90"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1211,7 +1211,7 @@ world
 				"v" "-128 -256 96"
 				"v" "-128 -256 32"
 			}
-			"material" "GLASS/GLASSWINDOW017A"
+			"material" "GLASS/GLASSWINDOW001A_90"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1624,8 +1624,8 @@ entity
 	"targetname" "mg_jumprope_logicbranch_friction"
 	connections
 	{
-		"OnFalse" "mg_jumprope_ropeAddOutputfanfriction 750-1"
-		"OnTrue" "mg_jumprope_ropeAddOutputfanfriction 250-1"
+		"OnFalse" "mg_jumprope_ropeAddOutputfanfriction 1000-1"
+		"OnTrue" "mg_jumprope_ropeAddOutputfanfriction 20-1"
 		"OnTrue" "mg_jumprope_friction_buttonColor255 165 00-1"
 		"OnFalse" "mg_jumprope_friction_buttonColor0 0 2550-1"
 	}
@@ -1901,7 +1901,7 @@ entity
 	"angles" "0 0 0"
 	"disablereceiveshadows" "1"
 	"effects" "0"
-	"fanfriction" "75"
+	"fanfriction" "100"
 	"maxspeed" "600"
 	"origin" "-128 -128 112"
 	"renderamt" "255"
@@ -4218,7 +4218,7 @@ entity
 				"v" "-210 -260 78"
 				"v" "-210 -261 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -4236,7 +4236,7 @@ entity
 				"v" "-206 -261 78"
 				"v" "-206 -260 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -4254,7 +4254,7 @@ entity
 				"v" "-206 -260 78"
 				"v" "-206 -261 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4272,7 +4272,7 @@ entity
 				"v" "-206 -261 60"
 				"v" "-206 -260 60"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4372,7 +4372,7 @@ entity
 				"v" "-222 -260 65.4992"
 				"v" "-216 -260 62.499"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4390,7 +4390,7 @@ entity
 				"v" "-222 -261 61.4992"
 				"v" "-216 -261 58.5"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4490,7 +4490,7 @@ entity
 				"v" "-216 -260 62.499"
 				"v" "-210 -260 65.5"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4508,7 +4508,7 @@ entity
 				"v" "-216 -261 58.5"
 				"v" "-210 -261 61.5"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4572,7 +4572,7 @@ entity
 				"v" "-226 -260 50"
 				"v" "-226 -260 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -4590,7 +4590,7 @@ entity
 				"v" "-222 -261 50"
 				"v" "-222 -261 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -4608,7 +4608,7 @@ entity
 				"v" "-226 -260 78"
 				"v" "-222 -260 78"
 			}
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TEST/COLOR008"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"

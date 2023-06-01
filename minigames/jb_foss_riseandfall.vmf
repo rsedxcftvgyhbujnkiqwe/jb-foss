@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "50"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -90,7 +90,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "50"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -5992,7 +5992,7 @@ entity
 	connections
 	{
 		"OnTrue" "mg_rf_safetywallDisable3-1"
-		"OnTrue" "mg_countdown_3Trigger2-1"
+		"OnTrue" "mg_countdown_3Trigger0-1"
 		"OnTrue" "mg_rf_timerEnable1-1"
 		"OnFalse" "mg_rf_template_3ForceSpawn0.07-1"
 		"OnFalse" "mg_rf_template_1ForceSpawn0.06-1"
@@ -6010,6 +6010,8 @@ entity
 		"OnFalse" "mg_rf_timerDisable0-1"
 		"OnTrue" "mg_rf_doorClose0-1"
 		"OnFalse" "mg_rf_doorOpen0-1"
+		"OnTrue" "mg_rf_main_buttonColor255 0 00-1"
+		"OnFalse" "mg_rf_main_buttonColor0 255 00-1"
 	}
 	"origin" "-136 -264 72"
 	editor
@@ -35537,8 +35539,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-93.6947 -270.234 67.685]"
-		"look" "[134.283 -138.603 26.9335]"
+		"position" "[-147.766 -270.636 73.0297]"
+		"look" "[89.5392 -164.973 14.0141]"
 	}
 	camera
 	{

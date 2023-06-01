@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "108"
+	"mapversion" "110"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "108"
+	"mapversion" "110"
 	"classname" "worldspawn"
 	"_minlight" "0.0"
 	"detailmaterial" "detailsprites"
@@ -9144,7 +9144,7 @@ entity
 	"id" "2138"
 	"classname" "trigger_teleport"
 	"angles" "0 0 0"
-	"origin" "0 494 40"
+	"origin" "0 -494 40"
 	"spawnflags" "8"
 	"StartDisabled" "0"
 	"target" "mg_soccer_teledest"
@@ -9160,13 +9160,13 @@ entity
 		side
 		{
 			"id" "5598"
-			"plane" "(-80 496 80) (80 496 80) (80 492 80)"
+			"plane" "(80 -496 80) (-80 -496 80) (-80 -492 80)"
 			vertices_plus
 			{
-				"v" "-80 496 80"
-				"v" "80 496 80"
-				"v" "80 492 80"
-				"v" "-80 492 80"
+				"v" "80 -496 80"
+				"v" "-80 -496 80"
+				"v" "-80 -492 80"
+				"v" "80 -492 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -9178,13 +9178,13 @@ entity
 		side
 		{
 			"id" "5597"
-			"plane" "(-80 492 0) (80 492 0) (80 496 0)"
+			"plane" "(80 -492 0) (-80 -492 0) (-80 -496 0)"
 			vertices_plus
 			{
-				"v" "-80 492 0"
-				"v" "80 492 0"
-				"v" "80 496 0"
-				"v" "-80 496 0"
+				"v" "80 -492 0"
+				"v" "-80 -492 0"
+				"v" "-80 -496 0"
+				"v" "80 -496 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -9196,13 +9196,13 @@ entity
 		side
 		{
 			"id" "5596"
-			"plane" "(-80 496 80) (-80 492 80) (-80 492 0)"
+			"plane" "(80 -496 80) (80 -492 80) (80 -492 0)"
 			vertices_plus
 			{
-				"v" "-80 496 80"
-				"v" "-80 492 80"
-				"v" "-80 492 0"
-				"v" "-80 496 0"
+				"v" "80 -496 80"
+				"v" "80 -492 80"
+				"v" "80 -492 0"
+				"v" "80 -496 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -9214,13 +9214,13 @@ entity
 		side
 		{
 			"id" "5595"
-			"plane" "(80 496 0) (80 492 0) (80 492 80)"
+			"plane" "(-80 -496 0) (-80 -492 0) (-80 -492 80)"
 			vertices_plus
 			{
-				"v" "80 496 0"
-				"v" "80 492 0"
-				"v" "80 492 80"
-				"v" "80 496 80"
+				"v" "-80 -496 0"
+				"v" "-80 -492 0"
+				"v" "-80 -492 80"
+				"v" "-80 -496 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -9232,13 +9232,13 @@ entity
 		side
 		{
 			"id" "5594"
-			"plane" "(80 496 80) (-80 496 80) (-80 496 0)"
+			"plane" "(-80 -496 80) (80 -496 80) (80 -496 0)"
 			vertices_plus
 			{
-				"v" "80 496 80"
-				"v" "-80 496 80"
-				"v" "-80 496 0"
-				"v" "80 496 0"
+				"v" "-80 -496 80"
+				"v" "80 -496 80"
+				"v" "80 -496 0"
+				"v" "-80 -496 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -9250,13 +9250,13 @@ entity
 		side
 		{
 			"id" "5593"
-			"plane" "(80 492 0) (-80 492 0) (-80 492 80)"
+			"plane" "(-80 -492 0) (80 -492 0) (80 -492 80)"
 			vertices_plus
 			{
-				"v" "80 492 0"
-				"v" "-80 492 0"
-				"v" "-80 492 80"
-				"v" "80 492 80"
+				"v" "-80 -492 0"
+				"v" "80 -492 0"
+				"v" "80 -492 80"
+				"v" "-80 -492 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -10657,7 +10657,7 @@ entity
 	"id" "2143"
 	"classname" "trigger_teleport"
 	"angles" "0 0 0"
-	"origin" "0 -494 40"
+	"origin" "-0 494 40"
 	"spawnflags" "8"
 	"StartDisabled" "0"
 	"target" "mg_soccer_teledest"
@@ -10673,13 +10673,13 @@ entity
 		side
 		{
 			"id" "5604"
-			"plane" "(-80 -492 80) (80 -492 80) (80 -496 80)"
+			"plane" "(80 492 80) (-80 492 80) (-80 496 80)"
 			vertices_plus
 			{
-				"v" "-80 -492 80"
-				"v" "80 -492 80"
-				"v" "80 -496 80"
-				"v" "-80 -496 80"
+				"v" "80 492 80"
+				"v" "-80 492 80"
+				"v" "-80 496 80"
+				"v" "80 496 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -10691,13 +10691,13 @@ entity
 		side
 		{
 			"id" "5603"
-			"plane" "(-80 -496 0) (80 -496 0) (80 -492 0)"
+			"plane" "(80 496 0) (-80 496 0) (-80 492 0)"
 			vertices_plus
 			{
-				"v" "-80 -496 0"
-				"v" "80 -496 0"
-				"v" "80 -492 0"
-				"v" "-80 -492 0"
+				"v" "80 496 0"
+				"v" "-80 496 0"
+				"v" "-80 492 0"
+				"v" "80 492 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -10709,13 +10709,13 @@ entity
 		side
 		{
 			"id" "5602"
-			"plane" "(-80 -492 80) (-80 -496 80) (-80 -496 0)"
+			"plane" "(80 492 80) (80 496 80) (80 496 0)"
 			vertices_plus
 			{
-				"v" "-80 -492 80"
-				"v" "-80 -496 80"
-				"v" "-80 -496 0"
-				"v" "-80 -492 0"
+				"v" "80 492 80"
+				"v" "80 496 80"
+				"v" "80 496 0"
+				"v" "80 492 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -10727,13 +10727,13 @@ entity
 		side
 		{
 			"id" "5601"
-			"plane" "(80 -492 0) (80 -496 0) (80 -496 80)"
+			"plane" "(-80 492 0) (-80 496 0) (-80 496 80)"
 			vertices_plus
 			{
-				"v" "80 -492 0"
-				"v" "80 -496 0"
-				"v" "80 -496 80"
-				"v" "80 -492 80"
+				"v" "-80 492 0"
+				"v" "-80 496 0"
+				"v" "-80 496 80"
+				"v" "-80 492 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -10745,13 +10745,13 @@ entity
 		side
 		{
 			"id" "5600"
-			"plane" "(80 -492 80) (-80 -492 80) (-80 -492 0)"
+			"plane" "(-80 492 80) (80 492 80) (80 492 0)"
 			vertices_plus
 			{
-				"v" "80 -492 80"
-				"v" "-80 -492 80"
-				"v" "-80 -492 0"
-				"v" "80 -492 0"
+				"v" "-80 492 80"
+				"v" "80 492 80"
+				"v" "80 492 0"
+				"v" "-80 492 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -10763,13 +10763,13 @@ entity
 		side
 		{
 			"id" "5599"
-			"plane" "(80 -496 0) (-80 -496 0) (-80 -496 80)"
+			"plane" "(-80 496 0) (80 496 0) (80 496 80)"
 			vertices_plus
 			{
-				"v" "80 -496 0"
-				"v" "-80 -496 0"
-				"v" "-80 -496 80"
-				"v" "80 -496 80"
+				"v" "-80 496 0"
+				"v" "80 496 0"
+				"v" "80 496 80"
+				"v" "-80 496 80"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -16961,7 +16961,7 @@ entity
 	"targetname" "mg_soccer_score_ind_l"
 	connections
 	{
-		"OutValue" "mg_soccer_score_ind_r_caseInValue0-1"
+		"OutValue" "mg_soccer_score_ind_l_caseInValue0-1"
 	}
 	"origin" "-112 -432 32"
 	editor
